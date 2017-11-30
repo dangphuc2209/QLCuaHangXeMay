@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11344970-A9E1-486C-80EA-FAF00C050E88}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLCuaHangXeMay</RootNamespace>
+    <AssemblyName>QLCuaHangXeMay</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\ChiTietPhieuNhap_XuLy.cs" />
+    <Compile Include="Business\ChiTietPhieuNhap.cs" />
+    <Compile Include="Business\ChiTietPhieuXuat _XuLy.cs" />
+    <Compile Include="Business\ChiTietPhieuXuat.cs" />
+    <Compile Include="Business\KhachHang_XuLy.cs" />
+    <Compile Include="Business\KhachHang.cs" />
+    <Compile Include="Business\LoaiXe _XuLy.cs" />
+    <Compile Include="Business\LoaiXe.cs" />
+    <Compile Include="Business\NhaCungCap_XuLy.cs" />
+    <Compile Include="Business\NhaCungCap.cs" />
+    <Compile Include="Business\NhanVien_XuLy.cs" />
+    <Compile Include="Business\NhanVien.cs" />
+    <Compile Include="Business\PhieuNhap_XuLy.cs" />
+    <Compile Include="Business\PhieuNhap.cs" />
+    <Compile Include="Business\PhieuXuat_XuLy.cs" />
+    <Compile Include="Business\PhieuXuat.cs" />
+    <Compile Include="Business\User.cs" />
+    <Compile Include="Business\User_XuLy.cs" />
+    <Compile Include="CuaHangXeMayDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuaHangXeMayDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CuaHangXeMayDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuaHangXeMayDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CuaHangXeMayDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuaHangXeMayDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CuaHangXeMayDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuaHangXeMayDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\DbConnection.cs" />
+    <Compile Include="Presentation\HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\HoaDon.Designer.cs">
+      <DependentUpon>HoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Presentation\TrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\TrangChu.Designer.cs">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Presentation\HoaDon.resx">
+      <DependentUpon>HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\TrangChu.resx">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="CuaHangXeMayDataSet.xsc">
+      <DependentUpon>CuaHangXeMayDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CuaHangXeMayDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CuaHangXeMayDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CuaHangXeMayDataSet.xss">
+      <DependentUpon>CuaHangXeMayDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CuaHangXeMayDataSet1.xsc">
+      <DependentUpon>CuaHangXeMayDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CuaHangXeMayDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CuaHangXeMayDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CuaHangXeMayDataSet1.xss">
+      <DependentUpon>CuaHangXeMayDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CuaHangXeMayDataSet2.xsc">
+      <DependentUpon>CuaHangXeMayDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CuaHangXeMayDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CuaHangXeMayDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CuaHangXeMayDataSet2.xss">
+      <DependentUpon>CuaHangXeMayDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CuaHangXeMayDataSet3.xsc">
+      <DependentUpon>CuaHangXeMayDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CuaHangXeMayDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CuaHangXeMayDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CuaHangXeMayDataSet3.xss">
+      <DependentUpon>CuaHangXeMayDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thoat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DangNhap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

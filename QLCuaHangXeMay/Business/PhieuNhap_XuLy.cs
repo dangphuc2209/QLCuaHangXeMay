@@ -4,7 +4,7 @@ using System.Data;
 
 namespace QLCuaHangXeMay.Business
 {
-    class PhieuNhapXuLy
+    public class PhieuNhapXuLy
     {
         DbConnection _db = new DbConnection();
         PhieuNhap _pn = new PhieuNhap();

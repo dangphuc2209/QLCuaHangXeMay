@@ -2,7 +2,7 @@
 
 namespace QLCuaHangXeMay.Business
 {
-    class NhanVien
+    public class NhanVien
     {
         public String MaNv { get; set; }
         public String TenNv { get; set; }

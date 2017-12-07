@@ -4,7 +4,7 @@ using System.Data;
 
 namespace QLCuaHangXeMay.Business
 {
-    class LoaiXeXuLy
+    public class LoaiXeXuLy
     {
         DbConnection _db = new DbConnection();
         LoaiXe _lx = new LoaiXe();

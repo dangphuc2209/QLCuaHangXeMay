@@ -2,7 +2,7 @@
 
 namespace QLCuaHangXeMay.Business
 {
-    class KhachHang
+    public class KhachHang
     {
         public String MaKh { get; set; }
         public String TenKh { get; set; }

@@ -2,7 +2,7 @@
 
 namespace QLCuaHangXeMay.Business
 {
-    class UserXuLy
+    public class UserXuLy
     {
         DbConnection _db = new DbConnection();
         User _user = new User();

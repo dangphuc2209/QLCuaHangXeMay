@@ -2,7 +2,7 @@
 
 namespace QLCuaHangXeMay.Business
 {
-    class NhaCungCap
+    public class NhaCungCap
     {
         public String MaNhaCc { get; set; }
         public String TenNhaCc { get; set; }

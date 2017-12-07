@@ -2,7 +2,7 @@
 
 namespace QLCuaHangXeMay.Business
 {
-    class PhieuXuat
+    public class PhieuXuat
     {
         public String MaPhieuXuat { set; get; }
         public DateTime NgayXuat { set; get; }

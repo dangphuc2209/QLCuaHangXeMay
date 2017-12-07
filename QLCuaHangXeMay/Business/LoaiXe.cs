@@ -2,7 +2,7 @@
 
 namespace QLCuaHangXeMay.Business
 {
-    class LoaiXe
+    public class LoaiXe
     {
         public String MaXe { get; set; }
         public String TenHangXe { get; set; }

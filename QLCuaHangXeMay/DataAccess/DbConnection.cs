@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 
 namespace QLCuaHangXeMay.DataAccess
 {
-    class DbConnection
+    public class DbConnection
     {
         SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-IS78AAG;Initial Catalog=CuaHangXeMay;Integrated Security=True");
         SqlDataAdapter _dap;

@@ -4,7 +4,7 @@ using System.Data;
 
 namespace QLCuaHangXeMay.Business
 {
-    class KhachHangXuLy
+    public class KhachHangXuLy
     {
         DbConnection _db = new DbConnection();
         KhachHang _kh = new KhachHang();

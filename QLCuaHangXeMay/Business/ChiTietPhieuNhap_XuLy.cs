@@ -3,7 +3,7 @@ using System.Data;
 
 namespace QLCuaHangXeMay.Business
 {
-    class ChiTietPhieuNhapXuLy
+    public class ChiTietPhieuNhapXuLy
     {
         DbConnection _db = new DbConnection();
         ChiTietPhieuNhap _ctpn = new ChiTietPhieuNhap();

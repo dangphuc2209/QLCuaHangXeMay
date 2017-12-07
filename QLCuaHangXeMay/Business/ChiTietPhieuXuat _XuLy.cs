@@ -23,5 +23,9 @@ namespace QLCuaHangXeMay.Business
         {
             _db.table_Command("UPDATE ChiTietPhieuXuat SET MaXe='" + ctpx.MaXe + "',SLXuat = " + ctpx.SlXuat + ",DonGiaXuat = " + ctpx.DonGiaXuat + ",Thue = " + ctpx.Thue + ",ThanhTien = " + ctpx.ThanhTien + " WHERE MaPhieuXuat = '" + ctpx.MaPhieuXuat + "'");
         }
+        public DataTable LayHoaDon(string maHoaDon)
+        {
+            return _db.table_Select("SELECT * FROM ChiTietPhieuXuat WHERE MaPhieuXuat = '" + maHoaDon + "'");
+        }
     }
 }

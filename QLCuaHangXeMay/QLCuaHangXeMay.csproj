@@ -49,6 +49,7 @@
     <Compile Include="Business\ChiTietPhieuNhap.cs" />
     <Compile Include="Business\ChiTietPhieuXuat _XuLy.cs" />
     <Compile Include="Business\ChiTietPhieuXuat.cs" />
+    <Compile Include="Business\InHoaDon.cs" />
     <Compile Include="Business\KhachHang_XuLy.cs" />
     <Compile Include="Business\KhachHang.cs" />
     <Compile Include="Business\LoaiXe _XuLy.cs" />
@@ -167,6 +168,7 @@
     <None Include="CuaHangXeMayDataSet3.xss">
       <DependentUpon>CuaHangXeMayDataSet3.xsd</DependentUpon>
     </None>
+    <None Include="Properties\DataSources\QLCuaHangXeMay.Business.InHoaDon.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

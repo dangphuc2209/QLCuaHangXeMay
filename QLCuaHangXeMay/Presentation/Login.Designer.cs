@@ -33,7 +33,6 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.chkGN = new System.Windows.Forms.CheckBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnDN = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -81,7 +80,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.chkGN);
             this.panel1.Controls.Add(this.txtName);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
@@ -92,16 +90,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(386, 265);
             this.panel1.TabIndex = 5;
-            // 
-            // chkGN
-            // 
-            this.chkGN.AutoSize = true;
-            this.chkGN.Location = new System.Drawing.Point(293, 152);
-            this.chkGN.Name = "chkGN";
-            this.chkGN.Size = new System.Drawing.Size(63, 17);
-            this.chkGN.TabIndex = 5;
-            this.chkGN.Text = "Ghi nhớ";
-            this.chkGN.UseVisualStyleBackColor = true;
             // 
             // btnThoat
             // 
@@ -173,7 +161,6 @@
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.CheckBox chkGN;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

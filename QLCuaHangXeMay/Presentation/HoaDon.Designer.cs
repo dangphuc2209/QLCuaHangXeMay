@@ -30,6 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbSDT = new System.Windows.Forms.Label();
+            this.lbEmail = new System.Windows.Forms.Label();
+            this.lbDiaChi = new System.Windows.Forms.Label();
             this.lbNgaySinh = new System.Windows.Forms.Label();
             this.lbTenKH = new System.Windows.Forms.Label();
             this.lbMaKH = new System.Windows.Forms.Label();
@@ -40,33 +43,40 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lbNgayXuat = new System.Windows.Forms.Label();
+            this.lbMaHoaDon = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.khachHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.khachHangTableAdapter = new QLCuaHangXeMay.CuaHangXeMayDataSet1TableAdapters.KhachHangTableAdapter();
-            this.lbSDT = new System.Windows.Forms.Label();
-            this.lbEmail = new System.Windows.Forms.Label();
-            this.lbDiaChi = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lbMaHoaDon = new System.Windows.Forms.Label();
-            this.lbNgayXuat = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.lbSTT = new System.Windows.Forms.Label();
-            this.lbTenXe = new System.Windows.Forms.Label();
-            this.lbSoLuong = new System.Windows.Forms.Label();
-            this.lbDonGia = new System.Windows.Forms.Label();
-            this.lbThue = new System.Windows.Forms.Label();
-            this.lbThanhTien = new System.Windows.Forms.Label();
             this.btnDongY = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dgwDonHang = new System.Windows.Forms.DataGridView();
+            this.cuaHangXeMayDataSet3 = new QLCuaHangXeMay.CuaHangXeMayDataSet3();
+            this.phieuXuatBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.phieuXuatTableAdapter = new QLCuaHangXeMay.CuaHangXeMayDataSet3TableAdapters.PhieuXuatTableAdapter();
+            this.chiTietPhieuXuatBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.chiTietPhieuXuatTableAdapter = new QLCuaHangXeMay.CuaHangXeMayDataSet3TableAdapters.ChiTietPhieuXuatTableAdapter();
+            this.cuaHangXeMayDataSet2 = new QLCuaHangXeMay.CuaHangXeMayDataSet2();
+            this.xeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.xeTableAdapter = new QLCuaHangXeMay.CuaHangXeMayDataSet2TableAdapters.XeTableAdapter();
+            this.tenXeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.slDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.donGiaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.thueDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.thanhTienDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.inHoaDonBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgwDonHang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuaHangXeMayDataSet3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phieuXuatBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chiTietPhieuXuatBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuaHangXeMayDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inHoaDonBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -90,6 +100,30 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin khách hàng";
+            // 
+            // lbSDT
+            // 
+            this.lbSDT.AutoSize = true;
+            this.lbSDT.Location = new System.Drawing.Point(300, 300);
+            this.lbSDT.Name = "lbSDT";
+            this.lbSDT.Size = new System.Drawing.Size(0, 16);
+            this.lbSDT.TabIndex = 11;
+            // 
+            // lbEmail
+            // 
+            this.lbEmail.AutoSize = true;
+            this.lbEmail.Location = new System.Drawing.Point(300, 250);
+            this.lbEmail.Name = "lbEmail";
+            this.lbEmail.Size = new System.Drawing.Size(0, 16);
+            this.lbEmail.TabIndex = 10;
+            // 
+            // lbDiaChi
+            // 
+            this.lbDiaChi.AutoSize = true;
+            this.lbDiaChi.Location = new System.Drawing.Point(300, 200);
+            this.lbDiaChi.Name = "lbDiaChi";
+            this.lbDiaChi.Size = new System.Drawing.Size(0, 16);
+            this.lbDiaChi.TabIndex = 9;
             // 
             // lbNgaySinh
             // 
@@ -181,6 +215,24 @@
             this.panel1.Size = new System.Drawing.Size(252, 91);
             this.panel1.TabIndex = 1;
             // 
+            // lbNgayXuat
+            // 
+            this.lbNgayXuat.AutoSize = true;
+            this.lbNgayXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNgayXuat.Location = new System.Drawing.Point(118, 55);
+            this.lbNgayXuat.Name = "lbNgayXuat";
+            this.lbNgayXuat.Size = new System.Drawing.Size(0, 16);
+            this.lbNgayXuat.TabIndex = 3;
+            // 
+            // lbMaHoaDon
+            // 
+            this.lbMaHoaDon.AutoSize = true;
+            this.lbMaHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMaHoaDon.Location = new System.Drawing.Point(118, 20);
+            this.lbMaHoaDon.Name = "lbMaHoaDon";
+            this.lbMaHoaDon.Size = new System.Drawing.Size(0, 16);
+            this.lbMaHoaDon.TabIndex = 2;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -190,34 +242,6 @@
             this.label8.Size = new System.Drawing.Size(68, 16);
             this.label8.TabIndex = 1;
             this.label8.Text = "Ngày xuất";
-            // 
-            // khachHangTableAdapter
-            // 
-            this.khachHangTableAdapter.ClearBeforeFill = true;
-            // 
-            // lbSDT
-            // 
-            this.lbSDT.AutoSize = true;
-            this.lbSDT.Location = new System.Drawing.Point(300, 300);
-            this.lbSDT.Name = "lbSDT";
-            this.lbSDT.Size = new System.Drawing.Size(0, 16);
-            this.lbSDT.TabIndex = 11;
-            // 
-            // lbEmail
-            // 
-            this.lbEmail.AutoSize = true;
-            this.lbEmail.Location = new System.Drawing.Point(300, 250);
-            this.lbEmail.Name = "lbEmail";
-            this.lbEmail.Size = new System.Drawing.Size(0, 16);
-            this.lbEmail.TabIndex = 10;
-            // 
-            // lbDiaChi
-            // 
-            this.lbDiaChi.AutoSize = true;
-            this.lbDiaChi.Location = new System.Drawing.Point(300, 200);
-            this.lbDiaChi.Name = "lbDiaChi";
-            this.lbDiaChi.Size = new System.Drawing.Size(0, 16);
-            this.lbDiaChi.TabIndex = 9;
             // 
             // label7
             // 
@@ -229,147 +253,9 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Mã hóa đơn";
             // 
-            // lbMaHoaDon
+            // khachHangTableAdapter
             // 
-            this.lbMaHoaDon.AutoSize = true;
-            this.lbMaHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMaHoaDon.Location = new System.Drawing.Point(118, 20);
-            this.lbMaHoaDon.Name = "lbMaHoaDon";
-            this.lbMaHoaDon.Size = new System.Drawing.Size(0, 16);
-            this.lbMaHoaDon.TabIndex = 2;
-            // 
-            // lbNgayXuat
-            // 
-            this.lbNgayXuat.AutoSize = true;
-            this.lbNgayXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNgayXuat.Location = new System.Drawing.Point(118, 55);
-            this.lbNgayXuat.Name = "lbNgayXuat";
-            this.lbNgayXuat.Size = new System.Drawing.Size(0, 16);
-            this.lbNgayXuat.TabIndex = 3;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.lbThanhTien);
-            this.groupBox2.Controls.Add(this.lbThue);
-            this.groupBox2.Controls.Add(this.lbDonGia);
-            this.groupBox2.Controls.Add(this.lbSoLuong);
-            this.groupBox2.Controls.Add(this.lbTenXe);
-            this.groupBox2.Controls.Add(this.lbSTT);
-            this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(10, 455);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(915, 154);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Thông tin đơn hàng";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(50, 50);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 16);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "STT";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(190, 50);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(49, 16);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "Tên xe";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(330, 50);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(61, 16);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "Số lượng";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(470, 50);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(54, 16);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "Đơn giá";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(610, 50);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(39, 16);
-            this.label13.TabIndex = 5;
-            this.label13.Text = "Thuế";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(750, 50);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 16);
-            this.label14.TabIndex = 6;
-            this.label14.Text = "Thành tiền";
-            // 
-            // lbSTT
-            // 
-            this.lbSTT.AutoSize = true;
-            this.lbSTT.Location = new System.Drawing.Point(50, 100);
-            this.lbSTT.Name = "lbSTT";
-            this.lbSTT.Size = new System.Drawing.Size(0, 16);
-            this.lbSTT.TabIndex = 7;
-            // 
-            // lbTenXe
-            // 
-            this.lbTenXe.AutoSize = true;
-            this.lbTenXe.Location = new System.Drawing.Point(190, 100);
-            this.lbTenXe.Name = "lbTenXe";
-            this.lbTenXe.Size = new System.Drawing.Size(0, 16);
-            this.lbTenXe.TabIndex = 8;
-            // 
-            // lbSoLuong
-            // 
-            this.lbSoLuong.AutoSize = true;
-            this.lbSoLuong.Location = new System.Drawing.Point(330, 100);
-            this.lbSoLuong.Name = "lbSoLuong";
-            this.lbSoLuong.Size = new System.Drawing.Size(0, 16);
-            this.lbSoLuong.TabIndex = 9;
-            // 
-            // lbDonGia
-            // 
-            this.lbDonGia.AutoSize = true;
-            this.lbDonGia.Location = new System.Drawing.Point(470, 100);
-            this.lbDonGia.Name = "lbDonGia";
-            this.lbDonGia.Size = new System.Drawing.Size(0, 16);
-            this.lbDonGia.TabIndex = 10;
-            // 
-            // lbThue
-            // 
-            this.lbThue.AutoSize = true;
-            this.lbThue.Location = new System.Drawing.Point(610, 100);
-            this.lbThue.Name = "lbThue";
-            this.lbThue.Size = new System.Drawing.Size(0, 16);
-            this.lbThue.TabIndex = 11;
-            // 
-            // lbThanhTien
-            // 
-            this.lbThanhTien.AutoSize = true;
-            this.lbThanhTien.Location = new System.Drawing.Point(750, 100);
-            this.lbThanhTien.Name = "lbThanhTien";
-            this.lbThanhTien.Size = new System.Drawing.Size(0, 16);
-            this.lbThanhTien.TabIndex = 12;
+            this.khachHangTableAdapter.ClearBeforeFill = true;
             // 
             // btnDongY
             // 
@@ -383,12 +269,122 @@
             this.btnDongY.UseVisualStyleBackColor = false;
             this.btnDongY.Click += new System.EventHandler(this.btnDongY_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.dgwDonHang);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(10, 455);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(915, 154);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Thông tin đơn hàng";
+            // 
+            // dgwDonHang
+            // 
+            this.dgwDonHang.AllowUserToAddRows = false;
+            this.dgwDonHang.AllowUserToDeleteRows = false;
+            this.dgwDonHang.AllowUserToResizeColumns = false;
+            this.dgwDonHang.AllowUserToResizeRows = false;
+            this.dgwDonHang.AutoGenerateColumns = false;
+            this.dgwDonHang.BackgroundColor = System.Drawing.Color.Silver;
+            this.dgwDonHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgwDonHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.tenXeDataGridViewTextBoxColumn,
+            this.slDataGridViewTextBoxColumn,
+            this.donGiaDataGridViewTextBoxColumn,
+            this.thueDataGridViewTextBoxColumn,
+            this.thanhTienDataGridViewTextBoxColumn});
+            this.dgwDonHang.DataSource = this.inHoaDonBindingSource;
+            this.dgwDonHang.Enabled = false;
+            this.dgwDonHang.Location = new System.Drawing.Point(6, 21);
+            this.dgwDonHang.Name = "dgwDonHang";
+            this.dgwDonHang.Size = new System.Drawing.Size(903, 127);
+            this.dgwDonHang.TabIndex = 0;
+            this.dgwDonHang.DefaultValuesNeeded += new System.Windows.Forms.DataGridViewRowEventHandler(this.dgwDonHang_DefaultValuesNeeded);
+            // 
+            // cuaHangXeMayDataSet3
+            // 
+            this.cuaHangXeMayDataSet3.DataSetName = "CuaHangXeMayDataSet3";
+            this.cuaHangXeMayDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // phieuXuatBindingSource
+            // 
+            this.phieuXuatBindingSource.DataMember = "PhieuXuat";
+            this.phieuXuatBindingSource.DataSource = this.cuaHangXeMayDataSet3;
+            // 
+            // phieuXuatTableAdapter
+            // 
+            this.phieuXuatTableAdapter.ClearBeforeFill = true;
+            // 
+            // chiTietPhieuXuatBindingSource
+            // 
+            this.chiTietPhieuXuatBindingSource.DataMember = "ChiTietPhieuXuat";
+            this.chiTietPhieuXuatBindingSource.DataSource = this.cuaHangXeMayDataSet3;
+            // 
+            // chiTietPhieuXuatTableAdapter
+            // 
+            this.chiTietPhieuXuatTableAdapter.ClearBeforeFill = true;
+            // 
+            // cuaHangXeMayDataSet2
+            // 
+            this.cuaHangXeMayDataSet2.DataSetName = "CuaHangXeMayDataSet2";
+            this.cuaHangXeMayDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // xeBindingSource
+            // 
+            this.xeBindingSource.DataMember = "Xe";
+            this.xeBindingSource.DataSource = this.cuaHangXeMayDataSet2;
+            // 
+            // xeTableAdapter
+            // 
+            this.xeTableAdapter.ClearBeforeFill = true;
+            // 
+            // tenXeDataGridViewTextBoxColumn
+            // 
+            this.tenXeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.tenXeDataGridViewTextBoxColumn.DataPropertyName = "TenXe";
+            this.tenXeDataGridViewTextBoxColumn.HeaderText = "TenXe";
+            this.tenXeDataGridViewTextBoxColumn.Name = "tenXeDataGridViewTextBoxColumn";
+            // 
+            // slDataGridViewTextBoxColumn
+            // 
+            this.slDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.slDataGridViewTextBoxColumn.DataPropertyName = "Sl";
+            this.slDataGridViewTextBoxColumn.HeaderText = "Sl";
+            this.slDataGridViewTextBoxColumn.Name = "slDataGridViewTextBoxColumn";
+            // 
+            // donGiaDataGridViewTextBoxColumn
+            // 
+            this.donGiaDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.donGiaDataGridViewTextBoxColumn.DataPropertyName = "DonGia";
+            this.donGiaDataGridViewTextBoxColumn.HeaderText = "DonGia";
+            this.donGiaDataGridViewTextBoxColumn.Name = "donGiaDataGridViewTextBoxColumn";
+            // 
+            // thueDataGridViewTextBoxColumn
+            // 
+            this.thueDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.thueDataGridViewTextBoxColumn.DataPropertyName = "Thue";
+            this.thueDataGridViewTextBoxColumn.HeaderText = "Thue";
+            this.thueDataGridViewTextBoxColumn.Name = "thueDataGridViewTextBoxColumn";
+            // 
+            // thanhTienDataGridViewTextBoxColumn
+            // 
+            this.thanhTienDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.thanhTienDataGridViewTextBoxColumn.DataPropertyName = "ThanhTien";
+            this.thanhTienDataGridViewTextBoxColumn.HeaderText = "ThanhTien";
+            this.thanhTienDataGridViewTextBoxColumn.Name = "thanhTienDataGridViewTextBoxColumn";
+            // 
+            // inHoaDonBindingSource
+            // 
+            this.inHoaDonBindingSource.DataSource = typeof(QLCuaHangXeMay.Business.InHoaDon);
+            // 
             // HoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(934, 741);
             this.Controls.Add(this.btnDongY);
             this.Controls.Add(this.groupBox2);
@@ -404,7 +400,13 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).EndInit();
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgwDonHang)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuaHangXeMayDataSet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phieuXuatBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chiTietPhieuXuatBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuaHangXeMayDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inHoaDonBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -431,19 +433,22 @@
         private System.Windows.Forms.Label lbNgayXuat;
         private System.Windows.Forms.Label lbMaHoaDon;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label lbThanhTien;
-        private System.Windows.Forms.Label lbThue;
-        private System.Windows.Forms.Label lbDonGia;
-        private System.Windows.Forms.Label lbSoLuong;
-        private System.Windows.Forms.Label lbTenXe;
-        private System.Windows.Forms.Label lbSTT;
         private System.Windows.Forms.Button btnDongY;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.DataGridView dgwDonHang;
+        private CuaHangXeMayDataSet3 cuaHangXeMayDataSet3;
+        private System.Windows.Forms.BindingSource phieuXuatBindingSource;
+        private CuaHangXeMayDataSet3TableAdapters.PhieuXuatTableAdapter phieuXuatTableAdapter;
+        private System.Windows.Forms.BindingSource chiTietPhieuXuatBindingSource;
+        private CuaHangXeMayDataSet3TableAdapters.ChiTietPhieuXuatTableAdapter chiTietPhieuXuatTableAdapter;
+        private CuaHangXeMayDataSet2 cuaHangXeMayDataSet2;
+        private System.Windows.Forms.BindingSource xeBindingSource;
+        private CuaHangXeMayDataSet2TableAdapters.XeTableAdapter xeTableAdapter;
+        private System.Windows.Forms.BindingSource inHoaDonBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenXeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn slDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn donGiaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn thueDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn thanhTienDataGridViewTextBoxColumn;
     }
 }

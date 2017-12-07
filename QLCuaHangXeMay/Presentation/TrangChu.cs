@@ -1810,14 +1810,9 @@ namespace QLCuaHangXeMay.Presentation
         private void btnInHoaDon_Click(object sender, EventArgs e)
         {
             String maKhachHang = cmbMaKHXuat.SelectedValue.ToString();
-            String maXe = cmbMaXeXuat.SelectedValue.ToString();
-            String maHoaDon = txtMaHoaDonCT.Text;
+            String maHoaDon = txtMaHoaDon.Text;
             DateTime ngayXuat = dtpkNgayXuat.Value;
-            int donGia = int.Parse(txtDonGiaXuat.Text);
-            int soLuong = int.Parse(numSoLuongXuat.Value.ToString());
-            int thue = int.Parse(txtThueXuat.Text);
-            int thanhTien = donGia * soLuong * thue;
-            HoaDon hd = new HoaDon(maKhachHang,maXe,maHoaDon,ngayXuat,donGia,soLuong,thue,thanhTien);
+            HoaDon hd = new HoaDon(maKhachHang, maHoaDon, ngayXuat);
             hd.Show();
         }
     }

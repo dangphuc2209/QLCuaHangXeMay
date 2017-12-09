@@ -2054,6 +2054,7 @@
             this.txtTiemKiemPN.Name = "txtTiemKiemPN";
             this.txtTiemKiemPN.Size = new System.Drawing.Size(207, 22);
             this.txtTiemKiemPN.TabIndex = 18;
+            this.txtTiemKiemPN.TextChanged += new System.EventHandler(this.txtTiemKiemPN_TextChanged);
             // 
             // cmbMaNhanVienNhap
             // 
@@ -2374,6 +2375,7 @@
             this.cmbMaXeXuat.Name = "cmbMaXeXuat";
             this.cmbMaXeXuat.Size = new System.Drawing.Size(140, 24);
             this.cmbMaXeXuat.TabIndex = 23;
+            this.cmbMaXeXuat.SelectedIndexChanged += new System.EventHandler(this.cmbMaXeXuat_SelectedIndexChanged);
             // 
             // btnXoaCTHoaDon
             // 
@@ -2400,6 +2402,7 @@
             // 
             // txtDonGiaXuat
             // 
+            this.txtDonGiaXuat.Enabled = false;
             this.txtDonGiaXuat.Location = new System.Drawing.Point(365, 34);
             this.txtDonGiaXuat.Name = "txtDonGiaXuat";
             this.txtDonGiaXuat.Size = new System.Drawing.Size(140, 22);
@@ -2526,6 +2529,7 @@
             this.txtTimKiemHD.Name = "txtTimKiemHD";
             this.txtTimKiemHD.Size = new System.Drawing.Size(207, 22);
             this.txtTimKiemHD.TabIndex = 19;
+            this.txtTimKiemHD.TextChanged += new System.EventHandler(this.txtTimKiemHD_TextChanged);
             // 
             // cmbMaNhaVienXuat
             // 

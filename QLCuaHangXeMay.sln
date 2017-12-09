@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLCuaHangXeMay", "QLCuaHangXeMay\QLCuaHangXeMay.csproj", "{11344970-A9E1-486C-80EA-FAF00C050E88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{2B965986-A9B7-41BF-AC65-220377FCF95C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{11344970-A9E1-486C-80EA-FAF00C050E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11344970-A9E1-486C-80EA-FAF00C050E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11344970-A9E1-486C-80EA-FAF00C050E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B965986-A9B7-41BF-AC65-220377FCF95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B965986-A9B7-41BF-AC65-220377FCF95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B965986-A9B7-41BF-AC65-220377FCF95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B965986-A9B7-41BF-AC65-220377FCF95C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

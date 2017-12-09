@@ -2,6 +2,7 @@
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using QLCuaHangXeMay.Business;
+using System.Data;
 
 namespace QLCuaHangXeMay.Presentation
 {
@@ -1167,9 +1168,11 @@ namespace QLCuaHangXeMay.Presentation
             dgwPhieuNhap.DataSource = _pnxl.PhieuNhap_SelectAll();
 
             cmbMaNhanVienNhap.DataSource = _nvxl.NhanVien_SelectAll();
+            cmbMaNhanVienNhap.DisplayMember = "TenNV";
             cmbMaNhanVienNhap.ValueMember = "MaNV";
 
             cmbMaNhaCCN.DataSource = _ncxl.NhaCungCap_SelectAll();
+            cmbMaNhaCCN.DisplayMember = "TenNhaCC";
             cmbMaNhaCCN.ValueMember = "MaNhaCC";
         }
         private void CTPhieuNhap_Load()
@@ -1177,6 +1180,7 @@ namespace QLCuaHangXeMay.Presentation
             dgwCTPhieuNhap.DataSource = _ctpnxl.CTPhieuNhap_SelectAll();
 
             cmbMaXeNhap.DataSource = _lxxl.Xe_SelectAll();
+            cmbMaXeNhap.DisplayMember = "TenXe";
             cmbMaXeNhap.ValueMember = "MaXe";
 
             btnThemPNCT.Enabled = false;
@@ -1488,6 +1492,12 @@ namespace QLCuaHangXeMay.Presentation
                 e.Handled = true;
             }
         }
+
+        private void txtTiemKiemPN_TextChanged(object sender, EventArgs e)
+        {
+            String item = txtTiemKiemPN.Text;
+            dgwPhieuNhap.DataSource = _pnxl.FindItem(item);
+        }
         //end tabPhieuNhap/ChiTietPhieuNhap
         #endregion
 #region tabPhieuXuat
@@ -1497,9 +1507,11 @@ namespace QLCuaHangXeMay.Presentation
             dgwHoaDon.DataSource = _pxxl.PhieuXuat_SelectAll();
 
             cmbMaNhaVienXuat.DataSource = _nvxl.NhanVien_SelectAll();
+            cmbMaNhaVienXuat.DisplayMember = "TenNV";
             cmbMaNhaVienXuat.ValueMember = "MaNV";
 
             cmbMaKHXuat.DataSource = _khxl.KhachHang_SelectAll();
+            cmbMaKHXuat.DisplayMember = "TenKH";
             cmbMaKHXuat.ValueMember = "MaKH";
         }
         private void CTPhieuXuat_Load()
@@ -1507,6 +1519,7 @@ namespace QLCuaHangXeMay.Presentation
             dgwCTHoaDon.DataSource = _ctpxxl.CTPhieuXuat_SelectAll();
 
             cmbMaXeXuat.DataSource = _lxxl.Xe_SelectAll();
+            cmbMaXeXuat.DisplayMember = "TenXe";
             cmbMaXeXuat.ValueMember = "MaXe";
 
             btnThemCTHoaDon.Enabled = false;
@@ -1799,6 +1812,20 @@ namespace QLCuaHangXeMay.Presentation
             {
                 e.Handled = true;
             }
+        }
+
+        private void cmbMaXeXuat_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string maXe = cmbMaXeXuat.SelectedValue.ToString();
+            DataTable layTtxe = _lxxl.LayXe(maXe);
+            string soLuong = layTtxe.Rows[0][6].ToString();
+            txtDonGiaXuat.Text = soLuong;
+        }
+
+        private void txtTimKiemHD_TextChanged(object sender, EventArgs e)
+        {
+            String item = txtTimKiemHD.Text;
+            dgwHoaDon.DataSource = _pxxl.FindItem(item);
         }
         //end tabPhieuXuat/ChiTietPhieuXuat
         #endregion

@@ -40,7 +40,7 @@ namespace QLCuaHangXeMay.Business
         {
             _db.table_Command("UPDATE Xe SET SoLuong=" + soLuong + ", DonGia=" + donGia + " WHERE MaXe ='" + maXe + "'");
         }
-        public void Xe_UpdateSLXuat(String maXe,int soLuong)
+        public void Xe_UpdateSLXuat(String maXe, int soLuong)
         {
             _db.table_Command("UPDATE Xe SET SoLuong=" + soLuong + " WHERE MaXe ='" + maXe + "'");
         }

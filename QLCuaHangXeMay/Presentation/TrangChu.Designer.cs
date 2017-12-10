@@ -56,10 +56,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label49 = new System.Windows.Forms.Label();
             this.txtTimKiemNV = new System.Windows.Forms.TextBox();
-            this.btnLamMoiNV = new System.Windows.Forms.Button();
-            this.btnSuaNV = new System.Windows.Forms.Button();
-            this.btnXoaNV = new System.Windows.Forms.Button();
-            this.btnThemNV = new System.Windows.Forms.Button();
             this.dgwNhanVien = new System.Windows.Forms.DataGridView();
             this.MaNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -98,10 +94,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label50 = new System.Windows.Forms.Label();
             this.txtTimKiemKH = new System.Windows.Forms.TextBox();
-            this.btnLamMoiKH = new System.Windows.Forms.Button();
-            this.btnSuaKH = new System.Windows.Forms.Button();
-            this.btnXoaKH = new System.Windows.Forms.Button();
-            this.btnThemKH = new System.Windows.Forms.Button();
             this.tabNhaCungCap = new System.Windows.Forms.TabPage();
             this.dgwNhaCC = new System.Windows.Forms.DataGridView();
             this.MaNhaCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -123,10 +115,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label51 = new System.Windows.Forms.Label();
             this.txtTimKiemNhaCC = new System.Windows.Forms.TextBox();
-            this.btnLamMoiNhaCC = new System.Windows.Forms.Button();
-            this.btnSuaNhaCC = new System.Windows.Forms.Button();
-            this.btnXoaNhaCC = new System.Windows.Forms.Button();
-            this.btnThemNhaCC = new System.Windows.Forms.Button();
             this.tabXe = new System.Windows.Forms.TabPage();
             this.dgwXe = new System.Windows.Forms.DataGridView();
             this.MaXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -157,10 +145,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label52 = new System.Windows.Forms.Label();
             this.txtTimKiemXe = new System.Windows.Forms.TextBox();
-            this.btnLamMoiXe = new System.Windows.Forms.Button();
-            this.btnSuaXe = new System.Windows.Forms.Button();
-            this.btnXoaXe = new System.Windows.Forms.Button();
-            this.btnThemXe = new System.Windows.Forms.Button();
             this.tabPhieuNhap = new System.Windows.Forms.TabPage();
             this.dgwCTPhieuNhap = new System.Windows.Forms.DataGridView();
             this.MaPhieuNhapCT = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -176,15 +160,11 @@
             this.MaNhaCCNhap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.cmbMaXeNhap = new System.Windows.Forms.ComboBox();
-            this.btnLuuPN = new System.Windows.Forms.Button();
             this.numSoLuongNhap = new System.Windows.Forms.NumericUpDown();
-            this.btnXoaPNCT = new System.Windows.Forms.Button();
             this.txtThueNhap = new System.Windows.Forms.TextBox();
             this.txtDonGiaNhap = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.btnSuaPNCT = new System.Windows.Forms.Button();
-            this.btnThemPNCT = new System.Windows.Forms.Button();
             this.txtMaPhieuNhapCT = new System.Windows.Forms.TextBox();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
@@ -201,9 +181,6 @@
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.btnLamMoiNhap = new System.Windows.Forms.Button();
-            this.btnSuaNhap = new System.Windows.Forms.Button();
-            this.btnThemNhap = new System.Windows.Forms.Button();
             this.tabPhieuXuat = new System.Windows.Forms.TabPage();
             this.dgwCTHoaDon = new System.Windows.Forms.DataGridView();
             this.MaPhieuXuatCT = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -218,16 +195,12 @@
             this.MaNVXuat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaKHXuat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.btnLuuHoaDon = new System.Windows.Forms.Button();
             this.numSoLuongXuat = new System.Windows.Forms.NumericUpDown();
             this.cmbMaXeXuat = new System.Windows.Forms.ComboBox();
-            this.btnXoaCTHoaDon = new System.Windows.Forms.Button();
             this.txtThueXuat = new System.Windows.Forms.TextBox();
             this.txtDonGiaXuat = new System.Windows.Forms.TextBox();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.btnSuaCTHoaDon = new System.Windows.Forms.Button();
-            this.btnThemCTHoaDon = new System.Windows.Forms.Button();
             this.txtMaHoaDonCT = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
@@ -244,10 +217,6 @@
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.btnInHoaDon = new System.Windows.Forms.Button();
-            this.btnLamMoiHoaDon = new System.Windows.Forms.Button();
-            this.btnSuaHoaDon = new System.Windows.Forms.Button();
-            this.btnThemHoaDon = new System.Windows.Forms.Button();
             this.xeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cuaHangXeMayDataSet2 = new QLCuaHangXeMay.CuaHangXeMayDataSet2();
             this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -269,7 +238,40 @@
             this.phieuXuatTableAdapter = new QLCuaHangXeMay.CuaHangXeMayDataSet3TableAdapters.PhieuXuatTableAdapter();
             this.chiTietPhieuXuatBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.chiTietPhieuXuatTableAdapter = new QLCuaHangXeMay.CuaHangXeMayDataSet3TableAdapters.ChiTietPhieuXuatTableAdapter();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnLamMoiNV = new System.Windows.Forms.Button();
+            this.btnSuaNV = new System.Windows.Forms.Button();
+            this.btnXoaNV = new System.Windows.Forms.Button();
+            this.btnThemNV = new System.Windows.Forms.Button();
+            this.btnLamMoiKH = new System.Windows.Forms.Button();
+            this.btnSuaKH = new System.Windows.Forms.Button();
+            this.btnXoaKH = new System.Windows.Forms.Button();
+            this.btnThemKH = new System.Windows.Forms.Button();
+            this.btnLamMoiNhaCC = new System.Windows.Forms.Button();
+            this.btnSuaNhaCC = new System.Windows.Forms.Button();
+            this.btnXoaNhaCC = new System.Windows.Forms.Button();
+            this.btnThemNhaCC = new System.Windows.Forms.Button();
+            this.btnLamMoiXe = new System.Windows.Forms.Button();
+            this.btnSuaXe = new System.Windows.Forms.Button();
+            this.btnXoaXe = new System.Windows.Forms.Button();
+            this.btnThemXe = new System.Windows.Forms.Button();
+            this.btnLuuPN = new System.Windows.Forms.Button();
+            this.btnXoaPNCT = new System.Windows.Forms.Button();
+            this.btnSuaPNCT = new System.Windows.Forms.Button();
+            this.btnThemPNCT = new System.Windows.Forms.Button();
+            this.btnLamMoiNhap = new System.Windows.Forms.Button();
+            this.btnSuaNhap = new System.Windows.Forms.Button();
+            this.btnThemNhap = new System.Windows.Forms.Button();
+            this.btnLuuHoaDon = new System.Windows.Forms.Button();
+            this.btnXoaCTHoaDon = new System.Windows.Forms.Button();
+            this.btnSuaCTHoaDon = new System.Windows.Forms.Button();
+            this.btnThemCTHoaDon = new System.Windows.Forms.Button();
+            this.btnInHoaDon = new System.Windows.Forms.Button();
+            this.btnLamMoiHoaDon = new System.Windows.Forms.Button();
+            this.btnSuaHoaDon = new System.Windows.Forms.Button();
+            this.btnThemHoaDon = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
+            this.tabGioiThieu.SuspendLayout();
             this.tabNhanVien.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -314,6 +316,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.chiTietPhieuNhapBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.phieuXuatBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chiTietPhieuXuatBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -336,6 +339,7 @@
             // tabGioiThieu
             // 
             this.tabGioiThieu.BackColor = System.Drawing.Color.Aqua;
+            this.tabGioiThieu.Controls.Add(this.pictureBox1);
             this.tabGioiThieu.Location = new System.Drawing.Point(4, 25);
             this.tabGioiThieu.Name = "tabGioiThieu";
             this.tabGioiThieu.Padding = new System.Windows.Forms.Padding(3);
@@ -593,66 +597,6 @@
             this.txtTimKiemNV.Size = new System.Drawing.Size(235, 22);
             this.txtTimKiemNV.TabIndex = 17;
             this.txtTimKiemNV.TextChanged += new System.EventHandler(this.txtTimKiemNV_TextChanged);
-            // 
-            // btnLamMoiNV
-            // 
-            this.btnLamMoiNV.BackColor = System.Drawing.Color.White;
-            this.btnLamMoiNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamMoiNV.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
-            this.btnLamMoiNV.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLamMoiNV.Location = new System.Drawing.Point(264, 20);
-            this.btnLamMoiNV.Name = "btnLamMoiNV";
-            this.btnLamMoiNV.Size = new System.Drawing.Size(75, 75);
-            this.btnLamMoiNV.TabIndex = 15;
-            this.btnLamMoiNV.Text = "Làm mới";
-            this.btnLamMoiNV.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLamMoiNV.UseVisualStyleBackColor = false;
-            this.btnLamMoiNV.Click += new System.EventHandler(this.btnLamMoiNV_Click);
-            // 
-            // btnSuaNV
-            // 
-            this.btnSuaNV.BackColor = System.Drawing.Color.White;
-            this.btnSuaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaNV.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
-            this.btnSuaNV.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSuaNV.Location = new System.Drawing.Point(184, 20);
-            this.btnSuaNV.Name = "btnSuaNV";
-            this.btnSuaNV.Size = new System.Drawing.Size(75, 75);
-            this.btnSuaNV.TabIndex = 14;
-            this.btnSuaNV.Text = "Sửa\r\n";
-            this.btnSuaNV.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSuaNV.UseVisualStyleBackColor = false;
-            this.btnSuaNV.Click += new System.EventHandler(this.btnSuaNV_Click);
-            // 
-            // btnXoaNV
-            // 
-            this.btnXoaNV.BackColor = System.Drawing.Color.White;
-            this.btnXoaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaNV.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
-            this.btnXoaNV.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnXoaNV.Location = new System.Drawing.Point(104, 20);
-            this.btnXoaNV.Name = "btnXoaNV";
-            this.btnXoaNV.Size = new System.Drawing.Size(75, 75);
-            this.btnXoaNV.TabIndex = 13;
-            this.btnXoaNV.Text = "Xóa";
-            this.btnXoaNV.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnXoaNV.UseVisualStyleBackColor = false;
-            this.btnXoaNV.Click += new System.EventHandler(this.btnXoaNV_Click);
-            // 
-            // btnThemNV
-            // 
-            this.btnThemNV.BackColor = System.Drawing.Color.White;
-            this.btnThemNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemNV.Image = global::QLCuaHangXeMay.Properties.Resources.add;
-            this.btnThemNV.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThemNV.Location = new System.Drawing.Point(24, 20);
-            this.btnThemNV.Name = "btnThemNV";
-            this.btnThemNV.Size = new System.Drawing.Size(75, 75);
-            this.btnThemNV.TabIndex = 12;
-            this.btnThemNV.Text = "Thêm";
-            this.btnThemNV.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnThemNV.UseVisualStyleBackColor = false;
-            this.btnThemNV.Click += new System.EventHandler(this.btnThemNV_Click);
             // 
             // dgwNhanVien
             // 
@@ -1027,66 +971,6 @@
             this.txtTimKiemKH.TabIndex = 18;
             this.txtTimKiemKH.TextChanged += new System.EventHandler(this.txtTimKiemKH_TextChanged);
             // 
-            // btnLamMoiKH
-            // 
-            this.btnLamMoiKH.BackColor = System.Drawing.Color.White;
-            this.btnLamMoiKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamMoiKH.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
-            this.btnLamMoiKH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLamMoiKH.Location = new System.Drawing.Point(264, 20);
-            this.btnLamMoiKH.Name = "btnLamMoiKH";
-            this.btnLamMoiKH.Size = new System.Drawing.Size(75, 75);
-            this.btnLamMoiKH.TabIndex = 11;
-            this.btnLamMoiKH.Text = "Làm mới";
-            this.btnLamMoiKH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLamMoiKH.UseVisualStyleBackColor = false;
-            this.btnLamMoiKH.Click += new System.EventHandler(this.btnLamMoiKH_Click);
-            // 
-            // btnSuaKH
-            // 
-            this.btnSuaKH.BackColor = System.Drawing.Color.White;
-            this.btnSuaKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaKH.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
-            this.btnSuaKH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSuaKH.Location = new System.Drawing.Point(184, 20);
-            this.btnSuaKH.Name = "btnSuaKH";
-            this.btnSuaKH.Size = new System.Drawing.Size(75, 75);
-            this.btnSuaKH.TabIndex = 10;
-            this.btnSuaKH.Text = "Sửa";
-            this.btnSuaKH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSuaKH.UseVisualStyleBackColor = false;
-            this.btnSuaKH.Click += new System.EventHandler(this.btnSuaKH_Click);
-            // 
-            // btnXoaKH
-            // 
-            this.btnXoaKH.BackColor = System.Drawing.Color.White;
-            this.btnXoaKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaKH.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
-            this.btnXoaKH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnXoaKH.Location = new System.Drawing.Point(104, 20);
-            this.btnXoaKH.Name = "btnXoaKH";
-            this.btnXoaKH.Size = new System.Drawing.Size(75, 75);
-            this.btnXoaKH.TabIndex = 9;
-            this.btnXoaKH.Text = "Xóa";
-            this.btnXoaKH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnXoaKH.UseVisualStyleBackColor = false;
-            this.btnXoaKH.Click += new System.EventHandler(this.btnXoaKH_Click);
-            // 
-            // btnThemKH
-            // 
-            this.btnThemKH.BackColor = System.Drawing.Color.White;
-            this.btnThemKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemKH.Image = global::QLCuaHangXeMay.Properties.Resources.add;
-            this.btnThemKH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThemKH.Location = new System.Drawing.Point(24, 20);
-            this.btnThemKH.Name = "btnThemKH";
-            this.btnThemKH.Size = new System.Drawing.Size(75, 75);
-            this.btnThemKH.TabIndex = 8;
-            this.btnThemKH.Text = "Thêm";
-            this.btnThemKH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnThemKH.UseVisualStyleBackColor = false;
-            this.btnThemKH.Click += new System.EventHandler(this.btnThemKH_Click);
-            // 
             // tabNhaCungCap
             // 
             this.tabNhaCungCap.BackColor = System.Drawing.Color.Aqua;
@@ -1296,66 +1180,6 @@
             this.txtTimKiemNhaCC.Size = new System.Drawing.Size(235, 22);
             this.txtTimKiemNhaCC.TabIndex = 18;
             this.txtTimKiemNhaCC.TextChanged += new System.EventHandler(this.txtTimKiemNhaCC_TextChanged);
-            // 
-            // btnLamMoiNhaCC
-            // 
-            this.btnLamMoiNhaCC.BackColor = System.Drawing.Color.White;
-            this.btnLamMoiNhaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamMoiNhaCC.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
-            this.btnLamMoiNhaCC.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLamMoiNhaCC.Location = new System.Drawing.Point(264, 20);
-            this.btnLamMoiNhaCC.Name = "btnLamMoiNhaCC";
-            this.btnLamMoiNhaCC.Size = new System.Drawing.Size(75, 75);
-            this.btnLamMoiNhaCC.TabIndex = 11;
-            this.btnLamMoiNhaCC.Text = "Làm mới";
-            this.btnLamMoiNhaCC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLamMoiNhaCC.UseVisualStyleBackColor = false;
-            this.btnLamMoiNhaCC.Click += new System.EventHandler(this.btnLamMoiNhaCC_Click);
-            // 
-            // btnSuaNhaCC
-            // 
-            this.btnSuaNhaCC.BackColor = System.Drawing.Color.White;
-            this.btnSuaNhaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaNhaCC.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
-            this.btnSuaNhaCC.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSuaNhaCC.Location = new System.Drawing.Point(184, 20);
-            this.btnSuaNhaCC.Name = "btnSuaNhaCC";
-            this.btnSuaNhaCC.Size = new System.Drawing.Size(75, 75);
-            this.btnSuaNhaCC.TabIndex = 10;
-            this.btnSuaNhaCC.Text = "Sửa";
-            this.btnSuaNhaCC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSuaNhaCC.UseVisualStyleBackColor = false;
-            this.btnSuaNhaCC.Click += new System.EventHandler(this.btnSuaNhaCC_Click);
-            // 
-            // btnXoaNhaCC
-            // 
-            this.btnXoaNhaCC.BackColor = System.Drawing.Color.White;
-            this.btnXoaNhaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaNhaCC.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
-            this.btnXoaNhaCC.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnXoaNhaCC.Location = new System.Drawing.Point(104, 20);
-            this.btnXoaNhaCC.Name = "btnXoaNhaCC";
-            this.btnXoaNhaCC.Size = new System.Drawing.Size(75, 75);
-            this.btnXoaNhaCC.TabIndex = 9;
-            this.btnXoaNhaCC.Text = "Xóa";
-            this.btnXoaNhaCC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnXoaNhaCC.UseVisualStyleBackColor = false;
-            this.btnXoaNhaCC.Click += new System.EventHandler(this.btnXoaNhaCC_Click);
-            // 
-            // btnThemNhaCC
-            // 
-            this.btnThemNhaCC.BackColor = System.Drawing.Color.White;
-            this.btnThemNhaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemNhaCC.Image = global::QLCuaHangXeMay.Properties.Resources.add;
-            this.btnThemNhaCC.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThemNhaCC.Location = new System.Drawing.Point(24, 20);
-            this.btnThemNhaCC.Name = "btnThemNhaCC";
-            this.btnThemNhaCC.Size = new System.Drawing.Size(75, 75);
-            this.btnThemNhaCC.TabIndex = 8;
-            this.btnThemNhaCC.Text = "Thêm";
-            this.btnThemNhaCC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnThemNhaCC.UseVisualStyleBackColor = false;
-            this.btnThemNhaCC.Click += new System.EventHandler(this.btnThemNhaCC_Click);
             // 
             // tabXe
             // 
@@ -1652,66 +1476,6 @@
             this.txtTimKiemXe.TabIndex = 18;
             this.txtTimKiemXe.TextChanged += new System.EventHandler(this.txtTimKiemXe_TextChanged);
             // 
-            // btnLamMoiXe
-            // 
-            this.btnLamMoiXe.BackColor = System.Drawing.Color.White;
-            this.btnLamMoiXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamMoiXe.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
-            this.btnLamMoiXe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLamMoiXe.Location = new System.Drawing.Point(264, 20);
-            this.btnLamMoiXe.Name = "btnLamMoiXe";
-            this.btnLamMoiXe.Size = new System.Drawing.Size(75, 75);
-            this.btnLamMoiXe.TabIndex = 11;
-            this.btnLamMoiXe.Text = "Làm mới";
-            this.btnLamMoiXe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLamMoiXe.UseVisualStyleBackColor = false;
-            this.btnLamMoiXe.Click += new System.EventHandler(this.btnLamMoiXe_Click);
-            // 
-            // btnSuaXe
-            // 
-            this.btnSuaXe.BackColor = System.Drawing.Color.White;
-            this.btnSuaXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaXe.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
-            this.btnSuaXe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSuaXe.Location = new System.Drawing.Point(184, 20);
-            this.btnSuaXe.Name = "btnSuaXe";
-            this.btnSuaXe.Size = new System.Drawing.Size(75, 75);
-            this.btnSuaXe.TabIndex = 10;
-            this.btnSuaXe.Text = "Sửa";
-            this.btnSuaXe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSuaXe.UseVisualStyleBackColor = false;
-            this.btnSuaXe.Click += new System.EventHandler(this.btnSuaXe_Click);
-            // 
-            // btnXoaXe
-            // 
-            this.btnXoaXe.BackColor = System.Drawing.Color.White;
-            this.btnXoaXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaXe.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
-            this.btnXoaXe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnXoaXe.Location = new System.Drawing.Point(104, 20);
-            this.btnXoaXe.Name = "btnXoaXe";
-            this.btnXoaXe.Size = new System.Drawing.Size(75, 75);
-            this.btnXoaXe.TabIndex = 9;
-            this.btnXoaXe.Text = "Xóa";
-            this.btnXoaXe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnXoaXe.UseVisualStyleBackColor = false;
-            this.btnXoaXe.Click += new System.EventHandler(this.btnXoaXe_Click);
-            // 
-            // btnThemXe
-            // 
-            this.btnThemXe.BackColor = System.Drawing.Color.White;
-            this.btnThemXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemXe.Image = global::QLCuaHangXeMay.Properties.Resources.add;
-            this.btnThemXe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThemXe.Location = new System.Drawing.Point(24, 20);
-            this.btnThemXe.Name = "btnThemXe";
-            this.btnThemXe.Size = new System.Drawing.Size(75, 75);
-            this.btnThemXe.TabIndex = 8;
-            this.btnThemXe.Text = "Thêm";
-            this.btnThemXe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnThemXe.UseVisualStyleBackColor = false;
-            this.btnThemXe.Click += new System.EventHandler(this.btnThemXe_Click);
-            // 
             // tabPhieuNhap
             // 
             this.tabPhieuNhap.BackColor = System.Drawing.Color.Aqua;
@@ -1881,42 +1645,12 @@
             this.cmbMaXeNhap.Size = new System.Drawing.Size(140, 24);
             this.cmbMaXeNhap.TabIndex = 26;
             // 
-            // btnLuuPN
-            // 
-            this.btnLuuPN.BackColor = System.Drawing.Color.White;
-            this.btnLuuPN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuuPN.Image = global::QLCuaHangXeMay.Properties.Resources.Save;
-            this.btnLuuPN.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLuuPN.Location = new System.Drawing.Point(108, 160);
-            this.btnLuuPN.Name = "btnLuuPN";
-            this.btnLuuPN.Size = new System.Drawing.Size(75, 75);
-            this.btnLuuPN.TabIndex = 25;
-            this.btnLuuPN.Text = "Lưu";
-            this.btnLuuPN.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLuuPN.UseVisualStyleBackColor = false;
-            this.btnLuuPN.Click += new System.EventHandler(this.btnLuuPN_Click);
-            // 
             // numSoLuongNhap
             // 
             this.numSoLuongNhap.Location = new System.Drawing.Point(121, 114);
             this.numSoLuongNhap.Name = "numSoLuongNhap";
             this.numSoLuongNhap.Size = new System.Drawing.Size(60, 22);
             this.numSoLuongNhap.TabIndex = 24;
-            // 
-            // btnXoaPNCT
-            // 
-            this.btnXoaPNCT.BackColor = System.Drawing.Color.White;
-            this.btnXoaPNCT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaPNCT.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
-            this.btnXoaPNCT.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnXoaPNCT.Location = new System.Drawing.Point(308, 160);
-            this.btnXoaPNCT.Name = "btnXoaPNCT";
-            this.btnXoaPNCT.Size = new System.Drawing.Size(75, 75);
-            this.btnXoaPNCT.TabIndex = 16;
-            this.btnXoaPNCT.Text = "Xóa";
-            this.btnXoaPNCT.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnXoaPNCT.UseVisualStyleBackColor = false;
-            this.btnXoaPNCT.Click += new System.EventHandler(this.btnXoaPNCT_Click);
             // 
             // txtThueNhap
             // 
@@ -1951,36 +1685,6 @@
             this.label32.Size = new System.Drawing.Size(54, 16);
             this.label32.TabIndex = 12;
             this.label32.Text = "Đơn giá";
-            // 
-            // btnSuaPNCT
-            // 
-            this.btnSuaPNCT.BackColor = System.Drawing.Color.White;
-            this.btnSuaPNCT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaPNCT.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
-            this.btnSuaPNCT.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSuaPNCT.Location = new System.Drawing.Point(208, 160);
-            this.btnSuaPNCT.Name = "btnSuaPNCT";
-            this.btnSuaPNCT.Size = new System.Drawing.Size(75, 75);
-            this.btnSuaPNCT.TabIndex = 10;
-            this.btnSuaPNCT.Text = "Sửa";
-            this.btnSuaPNCT.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSuaPNCT.UseVisualStyleBackColor = false;
-            this.btnSuaPNCT.Click += new System.EventHandler(this.btnSuaPNCT_Click);
-            // 
-            // btnThemPNCT
-            // 
-            this.btnThemPNCT.BackColor = System.Drawing.Color.White;
-            this.btnThemPNCT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemPNCT.Image = global::QLCuaHangXeMay.Properties.Resources.add;
-            this.btnThemPNCT.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThemPNCT.Location = new System.Drawing.Point(8, 160);
-            this.btnThemPNCT.Name = "btnThemPNCT";
-            this.btnThemPNCT.Size = new System.Drawing.Size(75, 75);
-            this.btnThemPNCT.TabIndex = 8;
-            this.btnThemPNCT.Text = "Thêm";
-            this.btnThemPNCT.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnThemPNCT.UseVisualStyleBackColor = false;
-            this.btnThemPNCT.Click += new System.EventHandler(this.btnThemPNCT_Click);
             // 
             // txtMaPhieuNhapCT
             // 
@@ -2141,51 +1845,6 @@
             this.panel5.Size = new System.Drawing.Size(217, 223);
             this.panel5.TabIndex = 0;
             // 
-            // btnLamMoiNhap
-            // 
-            this.btnLamMoiNhap.BackColor = System.Drawing.Color.White;
-            this.btnLamMoiNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamMoiNhap.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
-            this.btnLamMoiNhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLamMoiNhap.Location = new System.Drawing.Point(19, 121);
-            this.btnLamMoiNhap.Name = "btnLamMoiNhap";
-            this.btnLamMoiNhap.Size = new System.Drawing.Size(172, 75);
-            this.btnLamMoiNhap.TabIndex = 11;
-            this.btnLamMoiNhap.Text = "Làm mới";
-            this.btnLamMoiNhap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLamMoiNhap.UseVisualStyleBackColor = false;
-            this.btnLamMoiNhap.Click += new System.EventHandler(this.btnLamMoiNhap_Click);
-            // 
-            // btnSuaNhap
-            // 
-            this.btnSuaNhap.BackColor = System.Drawing.Color.White;
-            this.btnSuaNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaNhap.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
-            this.btnSuaNhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSuaNhap.Location = new System.Drawing.Point(116, 20);
-            this.btnSuaNhap.Name = "btnSuaNhap";
-            this.btnSuaNhap.Size = new System.Drawing.Size(75, 75);
-            this.btnSuaNhap.TabIndex = 10;
-            this.btnSuaNhap.Text = "Sửa";
-            this.btnSuaNhap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSuaNhap.UseVisualStyleBackColor = false;
-            this.btnSuaNhap.Click += new System.EventHandler(this.btnSuaNhap_Click);
-            // 
-            // btnThemNhap
-            // 
-            this.btnThemNhap.BackColor = System.Drawing.Color.White;
-            this.btnThemNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemNhap.Image = global::QLCuaHangXeMay.Properties.Resources.add;
-            this.btnThemNhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThemNhap.Location = new System.Drawing.Point(19, 20);
-            this.btnThemNhap.Name = "btnThemNhap";
-            this.btnThemNhap.Size = new System.Drawing.Size(75, 75);
-            this.btnThemNhap.TabIndex = 8;
-            this.btnThemNhap.Text = "Thêm";
-            this.btnThemNhap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnThemNhap.UseVisualStyleBackColor = false;
-            this.btnThemNhap.Click += new System.EventHandler(this.btnThemNhap_Click);
-            // 
             // tabPhieuXuat
             // 
             this.tabPhieuXuat.BackColor = System.Drawing.Color.Aqua;
@@ -2345,21 +2004,6 @@
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Thông tin chi tiết hóa đơn";
             // 
-            // btnLuuHoaDon
-            // 
-            this.btnLuuHoaDon.BackColor = System.Drawing.Color.White;
-            this.btnLuuHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuuHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.Save;
-            this.btnLuuHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLuuHoaDon.Location = new System.Drawing.Point(108, 160);
-            this.btnLuuHoaDon.Name = "btnLuuHoaDon";
-            this.btnLuuHoaDon.Size = new System.Drawing.Size(75, 75);
-            this.btnLuuHoaDon.TabIndex = 25;
-            this.btnLuuHoaDon.Text = "Lưu";
-            this.btnLuuHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLuuHoaDon.UseVisualStyleBackColor = false;
-            this.btnLuuHoaDon.Click += new System.EventHandler(this.btnLuuHoaDon_Click);
-            // 
             // numSoLuongXuat
             // 
             this.numSoLuongXuat.Location = new System.Drawing.Point(121, 114);
@@ -2376,21 +2020,6 @@
             this.cmbMaXeXuat.Size = new System.Drawing.Size(140, 24);
             this.cmbMaXeXuat.TabIndex = 23;
             this.cmbMaXeXuat.SelectedIndexChanged += new System.EventHandler(this.cmbMaXeXuat_SelectedIndexChanged);
-            // 
-            // btnXoaCTHoaDon
-            // 
-            this.btnXoaCTHoaDon.BackColor = System.Drawing.Color.White;
-            this.btnXoaCTHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaCTHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
-            this.btnXoaCTHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnXoaCTHoaDon.Location = new System.Drawing.Point(308, 160);
-            this.btnXoaCTHoaDon.Name = "btnXoaCTHoaDon";
-            this.btnXoaCTHoaDon.Size = new System.Drawing.Size(75, 75);
-            this.btnXoaCTHoaDon.TabIndex = 16;
-            this.btnXoaCTHoaDon.Text = "Xóa";
-            this.btnXoaCTHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnXoaCTHoaDon.UseVisualStyleBackColor = false;
-            this.btnXoaCTHoaDon.Click += new System.EventHandler(this.btnXoaCTHoaDon_Click);
             // 
             // txtThueXuat
             // 
@@ -2426,36 +2055,6 @@
             this.label45.Size = new System.Drawing.Size(54, 16);
             this.label45.TabIndex = 12;
             this.label45.Text = "Đơn giá";
-            // 
-            // btnSuaCTHoaDon
-            // 
-            this.btnSuaCTHoaDon.BackColor = System.Drawing.Color.White;
-            this.btnSuaCTHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaCTHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
-            this.btnSuaCTHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSuaCTHoaDon.Location = new System.Drawing.Point(208, 160);
-            this.btnSuaCTHoaDon.Name = "btnSuaCTHoaDon";
-            this.btnSuaCTHoaDon.Size = new System.Drawing.Size(75, 75);
-            this.btnSuaCTHoaDon.TabIndex = 10;
-            this.btnSuaCTHoaDon.Text = "Sửa";
-            this.btnSuaCTHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSuaCTHoaDon.UseVisualStyleBackColor = false;
-            this.btnSuaCTHoaDon.Click += new System.EventHandler(this.btnSuaCTHoaDon_Click);
-            // 
-            // btnThemCTHoaDon
-            // 
-            this.btnThemCTHoaDon.BackColor = System.Drawing.Color.White;
-            this.btnThemCTHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemCTHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.add;
-            this.btnThemCTHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThemCTHoaDon.Location = new System.Drawing.Point(8, 160);
-            this.btnThemCTHoaDon.Name = "btnThemCTHoaDon";
-            this.btnThemCTHoaDon.Size = new System.Drawing.Size(75, 75);
-            this.btnThemCTHoaDon.TabIndex = 8;
-            this.btnThemCTHoaDon.Text = "Thêm";
-            this.btnThemCTHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnThemCTHoaDon.UseVisualStyleBackColor = false;
-            this.btnThemCTHoaDon.Click += new System.EventHandler(this.btnThemCTHoaDon_Click);
             // 
             // txtMaHoaDonCT
             // 
@@ -2615,66 +2214,6 @@
             this.panel6.Size = new System.Drawing.Size(217, 223);
             this.panel6.TabIndex = 0;
             // 
-            // btnInHoaDon
-            // 
-            this.btnInHoaDon.BackColor = System.Drawing.Color.White;
-            this.btnInHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.Print;
-            this.btnInHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnInHoaDon.Location = new System.Drawing.Point(19, 121);
-            this.btnInHoaDon.Name = "btnInHoaDon";
-            this.btnInHoaDon.Size = new System.Drawing.Size(75, 75);
-            this.btnInHoaDon.TabIndex = 12;
-            this.btnInHoaDon.Text = "IN HĐ";
-            this.btnInHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnInHoaDon.UseVisualStyleBackColor = false;
-            this.btnInHoaDon.Click += new System.EventHandler(this.btnInHoaDon_Click);
-            // 
-            // btnLamMoiHoaDon
-            // 
-            this.btnLamMoiHoaDon.BackColor = System.Drawing.Color.White;
-            this.btnLamMoiHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamMoiHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
-            this.btnLamMoiHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLamMoiHoaDon.Location = new System.Drawing.Point(116, 121);
-            this.btnLamMoiHoaDon.Name = "btnLamMoiHoaDon";
-            this.btnLamMoiHoaDon.Size = new System.Drawing.Size(75, 75);
-            this.btnLamMoiHoaDon.TabIndex = 11;
-            this.btnLamMoiHoaDon.Text = "Làm mới";
-            this.btnLamMoiHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLamMoiHoaDon.UseVisualStyleBackColor = false;
-            this.btnLamMoiHoaDon.Click += new System.EventHandler(this.btnLamMoiHoaDon_Click);
-            // 
-            // btnSuaHoaDon
-            // 
-            this.btnSuaHoaDon.BackColor = System.Drawing.Color.White;
-            this.btnSuaHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
-            this.btnSuaHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSuaHoaDon.Location = new System.Drawing.Point(116, 20);
-            this.btnSuaHoaDon.Name = "btnSuaHoaDon";
-            this.btnSuaHoaDon.Size = new System.Drawing.Size(75, 75);
-            this.btnSuaHoaDon.TabIndex = 10;
-            this.btnSuaHoaDon.Text = "Sửa";
-            this.btnSuaHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSuaHoaDon.UseVisualStyleBackColor = false;
-            this.btnSuaHoaDon.Click += new System.EventHandler(this.btnSuaHoaDon_Click);
-            // 
-            // btnThemHoaDon
-            // 
-            this.btnThemHoaDon.BackColor = System.Drawing.Color.White;
-            this.btnThemHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.add;
-            this.btnThemHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThemHoaDon.Location = new System.Drawing.Point(19, 20);
-            this.btnThemHoaDon.Name = "btnThemHoaDon";
-            this.btnThemHoaDon.Size = new System.Drawing.Size(75, 75);
-            this.btnThemHoaDon.TabIndex = 8;
-            this.btnThemHoaDon.Text = "Thêm";
-            this.btnThemHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnThemHoaDon.UseVisualStyleBackColor = false;
-            this.btnThemHoaDon.Click += new System.EventHandler(this.btnThemHoaDon_Click);
-            // 
             // xeBindingSource
             // 
             this.xeBindingSource.DataMember = "Xe";
@@ -2772,6 +2311,481 @@
             // 
             this.chiTietPhieuXuatTableAdapter.ClearBeforeFill = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QLCuaHangXeMay.Properties.Resources.moto;
+            this.pictureBox1.Location = new System.Drawing.Point(-153, -154);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1366, 768);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnLamMoiNV
+            // 
+            this.btnLamMoiNV.BackColor = System.Drawing.Color.White;
+            this.btnLamMoiNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLamMoiNV.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
+            this.btnLamMoiNV.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLamMoiNV.Location = new System.Drawing.Point(264, 20);
+            this.btnLamMoiNV.Name = "btnLamMoiNV";
+            this.btnLamMoiNV.Size = new System.Drawing.Size(75, 75);
+            this.btnLamMoiNV.TabIndex = 15;
+            this.btnLamMoiNV.Text = "Làm mới";
+            this.btnLamMoiNV.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLamMoiNV.UseVisualStyleBackColor = false;
+            this.btnLamMoiNV.Click += new System.EventHandler(this.btnLamMoiNV_Click);
+            // 
+            // btnSuaNV
+            // 
+            this.btnSuaNV.BackColor = System.Drawing.Color.White;
+            this.btnSuaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaNV.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
+            this.btnSuaNV.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSuaNV.Location = new System.Drawing.Point(184, 20);
+            this.btnSuaNV.Name = "btnSuaNV";
+            this.btnSuaNV.Size = new System.Drawing.Size(75, 75);
+            this.btnSuaNV.TabIndex = 14;
+            this.btnSuaNV.Text = "Sửa\r\n";
+            this.btnSuaNV.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSuaNV.UseVisualStyleBackColor = false;
+            this.btnSuaNV.Click += new System.EventHandler(this.btnSuaNV_Click);
+            // 
+            // btnXoaNV
+            // 
+            this.btnXoaNV.BackColor = System.Drawing.Color.White;
+            this.btnXoaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaNV.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
+            this.btnXoaNV.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnXoaNV.Location = new System.Drawing.Point(104, 20);
+            this.btnXoaNV.Name = "btnXoaNV";
+            this.btnXoaNV.Size = new System.Drawing.Size(75, 75);
+            this.btnXoaNV.TabIndex = 13;
+            this.btnXoaNV.Text = "Xóa";
+            this.btnXoaNV.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnXoaNV.UseVisualStyleBackColor = false;
+            this.btnXoaNV.Click += new System.EventHandler(this.btnXoaNV_Click);
+            // 
+            // btnThemNV
+            // 
+            this.btnThemNV.BackColor = System.Drawing.Color.White;
+            this.btnThemNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemNV.Image = global::QLCuaHangXeMay.Properties.Resources.add;
+            this.btnThemNV.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnThemNV.Location = new System.Drawing.Point(24, 20);
+            this.btnThemNV.Name = "btnThemNV";
+            this.btnThemNV.Size = new System.Drawing.Size(75, 75);
+            this.btnThemNV.TabIndex = 12;
+            this.btnThemNV.Text = "Thêm";
+            this.btnThemNV.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnThemNV.UseVisualStyleBackColor = false;
+            this.btnThemNV.Click += new System.EventHandler(this.btnThemNV_Click);
+            // 
+            // btnLamMoiKH
+            // 
+            this.btnLamMoiKH.BackColor = System.Drawing.Color.White;
+            this.btnLamMoiKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLamMoiKH.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
+            this.btnLamMoiKH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLamMoiKH.Location = new System.Drawing.Point(264, 20);
+            this.btnLamMoiKH.Name = "btnLamMoiKH";
+            this.btnLamMoiKH.Size = new System.Drawing.Size(75, 75);
+            this.btnLamMoiKH.TabIndex = 11;
+            this.btnLamMoiKH.Text = "Làm mới";
+            this.btnLamMoiKH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLamMoiKH.UseVisualStyleBackColor = false;
+            this.btnLamMoiKH.Click += new System.EventHandler(this.btnLamMoiKH_Click);
+            // 
+            // btnSuaKH
+            // 
+            this.btnSuaKH.BackColor = System.Drawing.Color.White;
+            this.btnSuaKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaKH.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
+            this.btnSuaKH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSuaKH.Location = new System.Drawing.Point(184, 20);
+            this.btnSuaKH.Name = "btnSuaKH";
+            this.btnSuaKH.Size = new System.Drawing.Size(75, 75);
+            this.btnSuaKH.TabIndex = 10;
+            this.btnSuaKH.Text = "Sửa";
+            this.btnSuaKH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSuaKH.UseVisualStyleBackColor = false;
+            this.btnSuaKH.Click += new System.EventHandler(this.btnSuaKH_Click);
+            // 
+            // btnXoaKH
+            // 
+            this.btnXoaKH.BackColor = System.Drawing.Color.White;
+            this.btnXoaKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaKH.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
+            this.btnXoaKH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnXoaKH.Location = new System.Drawing.Point(104, 20);
+            this.btnXoaKH.Name = "btnXoaKH";
+            this.btnXoaKH.Size = new System.Drawing.Size(75, 75);
+            this.btnXoaKH.TabIndex = 9;
+            this.btnXoaKH.Text = "Xóa";
+            this.btnXoaKH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnXoaKH.UseVisualStyleBackColor = false;
+            this.btnXoaKH.Click += new System.EventHandler(this.btnXoaKH_Click);
+            // 
+            // btnThemKH
+            // 
+            this.btnThemKH.BackColor = System.Drawing.Color.White;
+            this.btnThemKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemKH.Image = global::QLCuaHangXeMay.Properties.Resources.add;
+            this.btnThemKH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnThemKH.Location = new System.Drawing.Point(24, 20);
+            this.btnThemKH.Name = "btnThemKH";
+            this.btnThemKH.Size = new System.Drawing.Size(75, 75);
+            this.btnThemKH.TabIndex = 8;
+            this.btnThemKH.Text = "Thêm";
+            this.btnThemKH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnThemKH.UseVisualStyleBackColor = false;
+            this.btnThemKH.Click += new System.EventHandler(this.btnThemKH_Click);
+            // 
+            // btnLamMoiNhaCC
+            // 
+            this.btnLamMoiNhaCC.BackColor = System.Drawing.Color.White;
+            this.btnLamMoiNhaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLamMoiNhaCC.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
+            this.btnLamMoiNhaCC.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLamMoiNhaCC.Location = new System.Drawing.Point(264, 20);
+            this.btnLamMoiNhaCC.Name = "btnLamMoiNhaCC";
+            this.btnLamMoiNhaCC.Size = new System.Drawing.Size(75, 75);
+            this.btnLamMoiNhaCC.TabIndex = 11;
+            this.btnLamMoiNhaCC.Text = "Làm mới";
+            this.btnLamMoiNhaCC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLamMoiNhaCC.UseVisualStyleBackColor = false;
+            this.btnLamMoiNhaCC.Click += new System.EventHandler(this.btnLamMoiNhaCC_Click);
+            // 
+            // btnSuaNhaCC
+            // 
+            this.btnSuaNhaCC.BackColor = System.Drawing.Color.White;
+            this.btnSuaNhaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaNhaCC.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
+            this.btnSuaNhaCC.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSuaNhaCC.Location = new System.Drawing.Point(184, 20);
+            this.btnSuaNhaCC.Name = "btnSuaNhaCC";
+            this.btnSuaNhaCC.Size = new System.Drawing.Size(75, 75);
+            this.btnSuaNhaCC.TabIndex = 10;
+            this.btnSuaNhaCC.Text = "Sửa";
+            this.btnSuaNhaCC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSuaNhaCC.UseVisualStyleBackColor = false;
+            this.btnSuaNhaCC.Click += new System.EventHandler(this.btnSuaNhaCC_Click);
+            // 
+            // btnXoaNhaCC
+            // 
+            this.btnXoaNhaCC.BackColor = System.Drawing.Color.White;
+            this.btnXoaNhaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaNhaCC.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
+            this.btnXoaNhaCC.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnXoaNhaCC.Location = new System.Drawing.Point(104, 20);
+            this.btnXoaNhaCC.Name = "btnXoaNhaCC";
+            this.btnXoaNhaCC.Size = new System.Drawing.Size(75, 75);
+            this.btnXoaNhaCC.TabIndex = 9;
+            this.btnXoaNhaCC.Text = "Xóa";
+            this.btnXoaNhaCC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnXoaNhaCC.UseVisualStyleBackColor = false;
+            this.btnXoaNhaCC.Click += new System.EventHandler(this.btnXoaNhaCC_Click);
+            // 
+            // btnThemNhaCC
+            // 
+            this.btnThemNhaCC.BackColor = System.Drawing.Color.White;
+            this.btnThemNhaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemNhaCC.Image = global::QLCuaHangXeMay.Properties.Resources.add;
+            this.btnThemNhaCC.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnThemNhaCC.Location = new System.Drawing.Point(24, 20);
+            this.btnThemNhaCC.Name = "btnThemNhaCC";
+            this.btnThemNhaCC.Size = new System.Drawing.Size(75, 75);
+            this.btnThemNhaCC.TabIndex = 8;
+            this.btnThemNhaCC.Text = "Thêm";
+            this.btnThemNhaCC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnThemNhaCC.UseVisualStyleBackColor = false;
+            this.btnThemNhaCC.Click += new System.EventHandler(this.btnThemNhaCC_Click);
+            // 
+            // btnLamMoiXe
+            // 
+            this.btnLamMoiXe.BackColor = System.Drawing.Color.White;
+            this.btnLamMoiXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLamMoiXe.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
+            this.btnLamMoiXe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLamMoiXe.Location = new System.Drawing.Point(264, 20);
+            this.btnLamMoiXe.Name = "btnLamMoiXe";
+            this.btnLamMoiXe.Size = new System.Drawing.Size(75, 75);
+            this.btnLamMoiXe.TabIndex = 11;
+            this.btnLamMoiXe.Text = "Làm mới";
+            this.btnLamMoiXe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLamMoiXe.UseVisualStyleBackColor = false;
+            this.btnLamMoiXe.Click += new System.EventHandler(this.btnLamMoiXe_Click);
+            // 
+            // btnSuaXe
+            // 
+            this.btnSuaXe.BackColor = System.Drawing.Color.White;
+            this.btnSuaXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaXe.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
+            this.btnSuaXe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSuaXe.Location = new System.Drawing.Point(184, 20);
+            this.btnSuaXe.Name = "btnSuaXe";
+            this.btnSuaXe.Size = new System.Drawing.Size(75, 75);
+            this.btnSuaXe.TabIndex = 10;
+            this.btnSuaXe.Text = "Sửa";
+            this.btnSuaXe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSuaXe.UseVisualStyleBackColor = false;
+            this.btnSuaXe.Click += new System.EventHandler(this.btnSuaXe_Click);
+            // 
+            // btnXoaXe
+            // 
+            this.btnXoaXe.BackColor = System.Drawing.Color.White;
+            this.btnXoaXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaXe.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
+            this.btnXoaXe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnXoaXe.Location = new System.Drawing.Point(104, 20);
+            this.btnXoaXe.Name = "btnXoaXe";
+            this.btnXoaXe.Size = new System.Drawing.Size(75, 75);
+            this.btnXoaXe.TabIndex = 9;
+            this.btnXoaXe.Text = "Xóa";
+            this.btnXoaXe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnXoaXe.UseVisualStyleBackColor = false;
+            this.btnXoaXe.Click += new System.EventHandler(this.btnXoaXe_Click);
+            // 
+            // btnThemXe
+            // 
+            this.btnThemXe.BackColor = System.Drawing.Color.White;
+            this.btnThemXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemXe.Image = global::QLCuaHangXeMay.Properties.Resources.add;
+            this.btnThemXe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnThemXe.Location = new System.Drawing.Point(24, 20);
+            this.btnThemXe.Name = "btnThemXe";
+            this.btnThemXe.Size = new System.Drawing.Size(75, 75);
+            this.btnThemXe.TabIndex = 8;
+            this.btnThemXe.Text = "Thêm";
+            this.btnThemXe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnThemXe.UseVisualStyleBackColor = false;
+            this.btnThemXe.Click += new System.EventHandler(this.btnThemXe_Click);
+            // 
+            // btnLuuPN
+            // 
+            this.btnLuuPN.BackColor = System.Drawing.Color.White;
+            this.btnLuuPN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuPN.Image = global::QLCuaHangXeMay.Properties.Resources.Save;
+            this.btnLuuPN.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLuuPN.Location = new System.Drawing.Point(108, 160);
+            this.btnLuuPN.Name = "btnLuuPN";
+            this.btnLuuPN.Size = new System.Drawing.Size(75, 75);
+            this.btnLuuPN.TabIndex = 25;
+            this.btnLuuPN.Text = "Lưu";
+            this.btnLuuPN.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLuuPN.UseVisualStyleBackColor = false;
+            this.btnLuuPN.Click += new System.EventHandler(this.btnLuuPN_Click);
+            // 
+            // btnXoaPNCT
+            // 
+            this.btnXoaPNCT.BackColor = System.Drawing.Color.White;
+            this.btnXoaPNCT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaPNCT.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
+            this.btnXoaPNCT.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnXoaPNCT.Location = new System.Drawing.Point(308, 160);
+            this.btnXoaPNCT.Name = "btnXoaPNCT";
+            this.btnXoaPNCT.Size = new System.Drawing.Size(75, 75);
+            this.btnXoaPNCT.TabIndex = 16;
+            this.btnXoaPNCT.Text = "Xóa";
+            this.btnXoaPNCT.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnXoaPNCT.UseVisualStyleBackColor = false;
+            this.btnXoaPNCT.Click += new System.EventHandler(this.btnXoaPNCT_Click);
+            // 
+            // btnSuaPNCT
+            // 
+            this.btnSuaPNCT.BackColor = System.Drawing.Color.White;
+            this.btnSuaPNCT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaPNCT.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
+            this.btnSuaPNCT.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSuaPNCT.Location = new System.Drawing.Point(208, 160);
+            this.btnSuaPNCT.Name = "btnSuaPNCT";
+            this.btnSuaPNCT.Size = new System.Drawing.Size(75, 75);
+            this.btnSuaPNCT.TabIndex = 10;
+            this.btnSuaPNCT.Text = "Sửa";
+            this.btnSuaPNCT.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSuaPNCT.UseVisualStyleBackColor = false;
+            this.btnSuaPNCT.Click += new System.EventHandler(this.btnSuaPNCT_Click);
+            // 
+            // btnThemPNCT
+            // 
+            this.btnThemPNCT.BackColor = System.Drawing.Color.White;
+            this.btnThemPNCT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemPNCT.Image = global::QLCuaHangXeMay.Properties.Resources.add;
+            this.btnThemPNCT.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnThemPNCT.Location = new System.Drawing.Point(8, 160);
+            this.btnThemPNCT.Name = "btnThemPNCT";
+            this.btnThemPNCT.Size = new System.Drawing.Size(75, 75);
+            this.btnThemPNCT.TabIndex = 8;
+            this.btnThemPNCT.Text = "Thêm";
+            this.btnThemPNCT.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnThemPNCT.UseVisualStyleBackColor = false;
+            this.btnThemPNCT.Click += new System.EventHandler(this.btnThemPNCT_Click);
+            // 
+            // btnLamMoiNhap
+            // 
+            this.btnLamMoiNhap.BackColor = System.Drawing.Color.White;
+            this.btnLamMoiNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLamMoiNhap.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
+            this.btnLamMoiNhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLamMoiNhap.Location = new System.Drawing.Point(19, 121);
+            this.btnLamMoiNhap.Name = "btnLamMoiNhap";
+            this.btnLamMoiNhap.Size = new System.Drawing.Size(172, 75);
+            this.btnLamMoiNhap.TabIndex = 11;
+            this.btnLamMoiNhap.Text = "Làm mới";
+            this.btnLamMoiNhap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLamMoiNhap.UseVisualStyleBackColor = false;
+            this.btnLamMoiNhap.Click += new System.EventHandler(this.btnLamMoiNhap_Click);
+            // 
+            // btnSuaNhap
+            // 
+            this.btnSuaNhap.BackColor = System.Drawing.Color.White;
+            this.btnSuaNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaNhap.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
+            this.btnSuaNhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSuaNhap.Location = new System.Drawing.Point(116, 20);
+            this.btnSuaNhap.Name = "btnSuaNhap";
+            this.btnSuaNhap.Size = new System.Drawing.Size(75, 75);
+            this.btnSuaNhap.TabIndex = 10;
+            this.btnSuaNhap.Text = "Sửa";
+            this.btnSuaNhap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSuaNhap.UseVisualStyleBackColor = false;
+            this.btnSuaNhap.Click += new System.EventHandler(this.btnSuaNhap_Click);
+            // 
+            // btnThemNhap
+            // 
+            this.btnThemNhap.BackColor = System.Drawing.Color.White;
+            this.btnThemNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemNhap.Image = global::QLCuaHangXeMay.Properties.Resources.add;
+            this.btnThemNhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnThemNhap.Location = new System.Drawing.Point(19, 20);
+            this.btnThemNhap.Name = "btnThemNhap";
+            this.btnThemNhap.Size = new System.Drawing.Size(75, 75);
+            this.btnThemNhap.TabIndex = 8;
+            this.btnThemNhap.Text = "Thêm";
+            this.btnThemNhap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnThemNhap.UseVisualStyleBackColor = false;
+            this.btnThemNhap.Click += new System.EventHandler(this.btnThemNhap_Click);
+            // 
+            // btnLuuHoaDon
+            // 
+            this.btnLuuHoaDon.BackColor = System.Drawing.Color.White;
+            this.btnLuuHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.Save;
+            this.btnLuuHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLuuHoaDon.Location = new System.Drawing.Point(108, 160);
+            this.btnLuuHoaDon.Name = "btnLuuHoaDon";
+            this.btnLuuHoaDon.Size = new System.Drawing.Size(75, 75);
+            this.btnLuuHoaDon.TabIndex = 25;
+            this.btnLuuHoaDon.Text = "Lưu";
+            this.btnLuuHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLuuHoaDon.UseVisualStyleBackColor = false;
+            this.btnLuuHoaDon.Click += new System.EventHandler(this.btnLuuHoaDon_Click);
+            // 
+            // btnXoaCTHoaDon
+            // 
+            this.btnXoaCTHoaDon.BackColor = System.Drawing.Color.White;
+            this.btnXoaCTHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaCTHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.delete;
+            this.btnXoaCTHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnXoaCTHoaDon.Location = new System.Drawing.Point(308, 160);
+            this.btnXoaCTHoaDon.Name = "btnXoaCTHoaDon";
+            this.btnXoaCTHoaDon.Size = new System.Drawing.Size(75, 75);
+            this.btnXoaCTHoaDon.TabIndex = 16;
+            this.btnXoaCTHoaDon.Text = "Xóa";
+            this.btnXoaCTHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnXoaCTHoaDon.UseVisualStyleBackColor = false;
+            this.btnXoaCTHoaDon.Click += new System.EventHandler(this.btnXoaCTHoaDon_Click);
+            // 
+            // btnSuaCTHoaDon
+            // 
+            this.btnSuaCTHoaDon.BackColor = System.Drawing.Color.White;
+            this.btnSuaCTHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaCTHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
+            this.btnSuaCTHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSuaCTHoaDon.Location = new System.Drawing.Point(208, 160);
+            this.btnSuaCTHoaDon.Name = "btnSuaCTHoaDon";
+            this.btnSuaCTHoaDon.Size = new System.Drawing.Size(75, 75);
+            this.btnSuaCTHoaDon.TabIndex = 10;
+            this.btnSuaCTHoaDon.Text = "Sửa";
+            this.btnSuaCTHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSuaCTHoaDon.UseVisualStyleBackColor = false;
+            this.btnSuaCTHoaDon.Click += new System.EventHandler(this.btnSuaCTHoaDon_Click);
+            // 
+            // btnThemCTHoaDon
+            // 
+            this.btnThemCTHoaDon.BackColor = System.Drawing.Color.White;
+            this.btnThemCTHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemCTHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.add;
+            this.btnThemCTHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnThemCTHoaDon.Location = new System.Drawing.Point(8, 160);
+            this.btnThemCTHoaDon.Name = "btnThemCTHoaDon";
+            this.btnThemCTHoaDon.Size = new System.Drawing.Size(75, 75);
+            this.btnThemCTHoaDon.TabIndex = 8;
+            this.btnThemCTHoaDon.Text = "Thêm";
+            this.btnThemCTHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnThemCTHoaDon.UseVisualStyleBackColor = false;
+            this.btnThemCTHoaDon.Click += new System.EventHandler(this.btnThemCTHoaDon_Click);
+            // 
+            // btnInHoaDon
+            // 
+            this.btnInHoaDon.BackColor = System.Drawing.Color.White;
+            this.btnInHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.Print;
+            this.btnInHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnInHoaDon.Location = new System.Drawing.Point(19, 121);
+            this.btnInHoaDon.Name = "btnInHoaDon";
+            this.btnInHoaDon.Size = new System.Drawing.Size(75, 75);
+            this.btnInHoaDon.TabIndex = 12;
+            this.btnInHoaDon.Text = "IN HĐ";
+            this.btnInHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnInHoaDon.UseVisualStyleBackColor = false;
+            this.btnInHoaDon.Click += new System.EventHandler(this.btnInHoaDon_Click);
+            // 
+            // btnLamMoiHoaDon
+            // 
+            this.btnLamMoiHoaDon.BackColor = System.Drawing.Color.White;
+            this.btnLamMoiHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLamMoiHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.reload;
+            this.btnLamMoiHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLamMoiHoaDon.Location = new System.Drawing.Point(116, 121);
+            this.btnLamMoiHoaDon.Name = "btnLamMoiHoaDon";
+            this.btnLamMoiHoaDon.Size = new System.Drawing.Size(75, 75);
+            this.btnLamMoiHoaDon.TabIndex = 11;
+            this.btnLamMoiHoaDon.Text = "Làm mới";
+            this.btnLamMoiHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLamMoiHoaDon.UseVisualStyleBackColor = false;
+            this.btnLamMoiHoaDon.Click += new System.EventHandler(this.btnLamMoiHoaDon_Click);
+            // 
+            // btnSuaHoaDon
+            // 
+            this.btnSuaHoaDon.BackColor = System.Drawing.Color.White;
+            this.btnSuaHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.edit;
+            this.btnSuaHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSuaHoaDon.Location = new System.Drawing.Point(116, 20);
+            this.btnSuaHoaDon.Name = "btnSuaHoaDon";
+            this.btnSuaHoaDon.Size = new System.Drawing.Size(75, 75);
+            this.btnSuaHoaDon.TabIndex = 10;
+            this.btnSuaHoaDon.Text = "Sửa";
+            this.btnSuaHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSuaHoaDon.UseVisualStyleBackColor = false;
+            this.btnSuaHoaDon.Click += new System.EventHandler(this.btnSuaHoaDon_Click);
+            // 
+            // btnThemHoaDon
+            // 
+            this.btnThemHoaDon.BackColor = System.Drawing.Color.White;
+            this.btnThemHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemHoaDon.Image = global::QLCuaHangXeMay.Properties.Resources.add;
+            this.btnThemHoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnThemHoaDon.Location = new System.Drawing.Point(19, 20);
+            this.btnThemHoaDon.Name = "btnThemHoaDon";
+            this.btnThemHoaDon.Size = new System.Drawing.Size(75, 75);
+            this.btnThemHoaDon.TabIndex = 8;
+            this.btnThemHoaDon.Text = "Thêm";
+            this.btnThemHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnThemHoaDon.UseVisualStyleBackColor = false;
+            this.btnThemHoaDon.Click += new System.EventHandler(this.btnThemHoaDon_Click);
+            // 
             // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2785,6 +2799,8 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TrangChu_FormClosed);
             this.Load += new System.EventHandler(this.TrangChu_Load);
             this.tabControl1.ResumeLayout(false);
+            this.tabGioiThieu.ResumeLayout(false);
+            this.tabGioiThieu.PerformLayout();
             this.tabNhanVien.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -2841,6 +2857,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.chiTietPhieuNhapBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.phieuXuatBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chiTietPhieuXuatBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3087,5 +3104,6 @@
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.TextBox txtTimKiemHD;
         private System.Windows.Forms.ComboBox cmbMaXeNhap;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

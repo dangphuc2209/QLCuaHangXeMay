@@ -42,7 +42,7 @@ namespace UnitTest
                 _ctpnXl.CTPhieuNhap_Insert(ctpn);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -65,7 +65,7 @@ namespace UnitTest
                 _ctpnXl.CTPhieuNhap_Insert(ctpn);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -85,7 +85,7 @@ namespace UnitTest
                 _ctpnXl.CTPhieuNhap_Delete(ctpn);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -110,7 +110,7 @@ namespace UnitTest
                 _ctpnXl.CTPhieuNhap_Update(ctpn);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -156,7 +156,7 @@ namespace UnitTest
             _ctpxXl = new ChiTietPhieuXuatXuLy();
             String maHoaDon = "HD9";
             DataTable dt = _ctpxXl.LayHoaDon(maHoaDon);
-            int actual = 0;
+            int actual;
             if (dt.Rows.Count != 0)
             {
                 actual = 1;
@@ -186,7 +186,7 @@ namespace UnitTest
                 _ctpxXl.CTPhieuXuat_Insert(ctpx);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -214,7 +214,7 @@ namespace UnitTest
                 _ctpxXl.CTPhieuXuat_Insert(ctpx);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -234,7 +234,7 @@ namespace UnitTest
                 _ctpxXl.CTPhieuXuat_Delete(ctpx);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -259,7 +259,7 @@ namespace UnitTest
                 _ctpxXl.CTPhieuXuat_Update(ctpx);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -306,7 +306,7 @@ namespace UnitTest
             string item = "PN1";
             bool check = _pnxl.CheckId(item);
             int actual = 0;
-            if (check == true)
+            if (check)
             {
                 actual = 1;
             }
@@ -320,8 +320,8 @@ namespace UnitTest
             _pnxl = new PhieuNhapXuLy();
             string item = "PN11";
             bool check = _pnxl.CheckId(item);
-            int actual = 0;
-            if (check == true)
+            int actual;
+            if (check)
             {
                 actual = 1;
             }
@@ -348,7 +348,7 @@ namespace UnitTest
                 _pnxl.PhieuNhap_Insert(pn);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -371,11 +371,14 @@ namespace UnitTest
                 _pnxl.PhieuNhap_Insert(pn);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
             Assert.AreEqual(true, actual);
+            PhieuNhap pn1 = new PhieuNhap();
+            pn1.MaPhieuNhap = "PN10";
+            _pnxl.PhieuNhap_Delete(pn1);
         }
 
         [TestMethod]
@@ -391,7 +394,7 @@ namespace UnitTest
                 _pnxl.PhieuNhap_Delete(pn);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -414,7 +417,7 @@ namespace UnitTest
                 _pnxl.PhieuNhap_Update(pn);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -461,7 +464,7 @@ namespace UnitTest
             string item = "HD1";
             bool check = _pxxl.CheckId(item);
             int actual = 0;
-            if (check == true)
+            if (check)
             {
                 actual = 1;
             }
@@ -475,8 +478,8 @@ namespace UnitTest
             _pxxl = new PhieuXuatXuLy();
             string item = "HD11";
             bool check = _pxxl.CheckId(item);
-            int actual = 0;
-            if (check == true)
+            int actual;
+            if (check)
             {
                 actual = 1;
             }
@@ -503,7 +506,7 @@ namespace UnitTest
                 _pxxl.PhieuXuat_Insert(px);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -526,11 +529,14 @@ namespace UnitTest
                 _pxxl.PhieuXuat_Insert(px);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
             Assert.AreEqual(true, actual);
+            PhieuXuat px1 = new PhieuXuat();
+            px1.MaPhieuXuat = "HD5";
+            _pxxl.PhieuXuat_Delete(px1);
         }
 
         [TestMethod]
@@ -546,7 +552,7 @@ namespace UnitTest
                 _pxxl.PhieuXuat_Delete(px);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -569,7 +575,7 @@ namespace UnitTest
                 _pxxl.PhieuXuat_Update(px);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -616,7 +622,7 @@ namespace UnitTest
             string item = "KH1";
             bool check = _khxl.CheckId(item);
             int actual = 0;
-            if (check == true)
+            if (check)
             {
                 actual = 1;
             }
@@ -630,8 +636,8 @@ namespace UnitTest
             _khxl = new KhachHangXuLy();
             string item = "KH11";
             bool check = _khxl.CheckId(item);
-            int actual = 0;
-            if (check == true)
+            int actual;
+            if (check)
             {
                 actual = 1;
             }
@@ -661,7 +667,7 @@ namespace UnitTest
                 _khxl.KhachHang_Insert(kh);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -687,11 +693,14 @@ namespace UnitTest
                 _khxl.KhachHang_Insert(kh);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
             Assert.AreEqual(true, actual);
+            KhachHang kh1 = new KhachHang();
+            kh1.MaKh = "KH9";
+            _khxl.KhachHang_Delete(kh1);
         }
 
         [TestMethod]
@@ -707,7 +716,7 @@ namespace UnitTest
                 _khxl.KhachHang_Delete(kh);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -733,7 +742,7 @@ namespace UnitTest
                 _khxl.KhachHang_Update(kh);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -795,7 +804,7 @@ namespace UnitTest
             string item = "NV1";
             bool check = _nvxl.CheckId(item);
             int actual = 0;
-            if (check == true)
+            if (check)
             {
                 actual = 1;
             }
@@ -809,8 +818,8 @@ namespace UnitTest
             _nvxl = new NhanVienXuLy();
             string item = "NV11";
             bool check = _nvxl.CheckId(item);
-            int actual = 0;
-            if (check == true)
+            int actual;
+            if (check)
             {
                 actual = 1;
             }
@@ -843,7 +852,7 @@ namespace UnitTest
                 _nvxl.NhanVien_Insert(nv);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -872,11 +881,14 @@ namespace UnitTest
                 _nvxl.NhanVien_Insert(nv);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
             Assert.AreEqual(true, actual);
+            NhanVien nv1 = new NhanVien();
+            nv1.MaNv = "NV10";
+            _nvxl.NhanVien_Delete(nv1);
         }
 
         [TestMethod]
@@ -892,7 +904,7 @@ namespace UnitTest
                 _nvxl.NhanVien_Delete(nv);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -921,7 +933,7 @@ namespace UnitTest
                 _nvxl.NhanVien_Update(nv);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -968,7 +980,7 @@ namespace UnitTest
             string item = "NCC1";
             bool check = _nccxl.CheckId(item);
             int actual = 0;
-            if (check == true)
+            if (check)
             {
                 actual = 1;
             }
@@ -982,8 +994,8 @@ namespace UnitTest
             _nccxl = new NhaCungCapXuLy();
             string item = "NCC11";
             bool check = _nccxl.CheckId(item);
-            int actual = 0;
-            if (check == true)
+            int actual;
+            if (check)
             {
                 actual = 1;
             }
@@ -1011,7 +1023,7 @@ namespace UnitTest
                 _nccxl.NhaCungCap_Insert(ncc);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -1035,7 +1047,7 @@ namespace UnitTest
                 _nccxl.NhaCungCap_Insert(ncc);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -1058,7 +1070,7 @@ namespace UnitTest
                 _nccxl.NhaCungCap_Delete(ncc);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 actual = false;
             }
@@ -1082,11 +1094,282 @@ namespace UnitTest
                 _nccxl.NhaCungCap_Update(ncc);
                 actual = true;
             }
-            catch (Exception e)
+            catch (Exception)
+            {
+                actual = false;
+            }
+            Assert.AreEqual(true, actual);
+        }
+        #endregion
+
+        #region Xe
+        LoaiXeXuLy _lxxl;
+        [TestMethod]
+        //test select
+        public void TestXe_SelectAll()
+        {
+            _lxxl = new LoaiXeXuLy();
+            DataTable dt = _lxxl.Xe_SelectAll();
+            int actual = 0;
+            if (dt.Rows.Count != 0)
+            {
+                actual = 1;
+            }
+            Assert.AreEqual(1, actual);
+        }
+
+        [TestMethod]
+        //test Find true
+        public void TestXe_FindItem()
+        {
+            _lxxl = new LoaiXeXuLy();
+            string item = "S";
+            DataTable dt = _lxxl.FindItem(item);
+            int actual = 0;
+            if (dt.Rows.Count != 0)
+            {
+                actual = 1;
+            }
+            Assert.AreEqual(1, actual);
+        }
+
+        [TestMethod]
+        //test checkid true
+        public void TestXe_CheckId()
+        {
+            _lxxl = new LoaiXeXuLy();
+            string item = "SO1";
+            bool check = _lxxl.CheckId(item);
+            int actual = 0;
+            if (check)
+            {
+                actual = 1;
+            }
+            Assert.AreEqual(1, actual);
+        }
+
+        [TestMethod]
+        //test checkid true
+        public void TestXe_CheckIdFalse()
+        {
+            _lxxl = new LoaiXeXuLy();
+            string item = "SO11";
+            bool check = _lxxl.CheckId(item);
+            int actual;
+            if (check)
+            {
+                actual = 1;
+            }
+            else
+            {
+                actual = 0;
+            }
+            Assert.AreEqual(0, actual);
+        }
+
+        [TestMethod]
+        //test insert false
+        public void TestXe_InsertFalse()
+        {
+            _lxxl = new LoaiXeXuLy();
+            bool actual;
+            try
+            {
+                LoaiXe lx = new LoaiXe();
+                lx.MaXe = "SO1";
+                lx.TenHangXe = "Test";
+                lx.SoLuong = 1;
+                lx.ThongTinBaoHanh = "Test";
+                lx.TenXe = "Test";
+                lx.NhaSx = "Test";
+                lx.DonGia = 1;
+                lx.TinhTrang = "Test";
+                _lxxl.Xe_Insert(lx);
+                actual = true;
+            }
+            catch (Exception)
             {
                 actual = false;
             }
             Assert.AreEqual(false, actual);
+        }
+
+        [TestMethod]
+        //test insert true
+        public void TestXe_Insert()
+        {
+            _lxxl = new LoaiXeXuLy();
+            bool actual;
+            try
+            {
+                LoaiXe lx = new LoaiXe();
+                lx.MaXe = "SO10";
+                lx.TenHangXe = "Test";
+                lx.SoLuong = 1;
+                lx.ThongTinBaoHanh = "Test";
+                lx.TenXe = "Test";
+                lx.NhaSx = "Test";
+                lx.DonGia = 1;
+                lx.TinhTrang = "Test";
+                _lxxl.Xe_Insert(lx);
+                actual = true;
+            }
+            catch (Exception)
+            {
+                actual = false;
+            }
+            Assert.AreEqual(true, actual);
+            LoaiXe lx1 = new LoaiXe();
+            lx1.MaXe = "SO10";
+            _lxxl.Xe_Delete(lx1);
+        }
+
+        [TestMethod]
+        //test delete
+        public void TestXe_Delete()
+        {
+            _lxxl = new LoaiXeXuLy();
+            bool actual;
+            try
+            {
+                LoaiXe lx = new LoaiXe();
+                lx.MaXe = "SO10";
+                _lxxl.Xe_Delete(lx);
+                actual = true;
+            }
+            catch (Exception)
+            {
+                actual = false;
+            }
+            Assert.AreEqual(true, actual);
+        }
+
+        [TestMethod]
+        //test update
+        public void TestXe_Update()
+        {
+            _lxxl = new LoaiXeXuLy();
+            bool actual;
+            try
+            {
+                LoaiXe lx = new LoaiXe();
+                lx.MaXe = "XE";
+                lx.TenHangXe = "Test";
+                lx.SoLuong = 1;
+                lx.ThongTinBaoHanh = "Test";
+                lx.TenXe = "Test";
+                lx.NhaSx = "Test";
+                lx.DonGia = 1;
+                lx.TinhTrang = "Test";
+                _lxxl.Xe_Update(lx);
+                actual = true;
+            }
+            catch (Exception)
+            {
+                actual = false;
+            }
+            Assert.AreEqual(true, actual);
+        }
+
+        [TestMethod]
+        //Update SLNhap
+        public void TestXe_UpdateSLNhap()
+        {
+            _lxxl = new LoaiXeXuLy();
+            bool actual;
+            try
+            {
+                string maXe = "XE";
+                int soLuong = 10;
+                int donGia = 10;
+                _lxxl.Xe_UpdateSLNhap(maXe, soLuong, donGia);
+                actual = true;
+            }
+            catch (Exception)
+            {
+                actual = false;
+            }
+            Assert.AreEqual(true, actual);
+        }
+
+        [TestMethod]
+        //Update SLXuat
+        public void TestXe_UpdateSLXuat()
+        {
+            _lxxl = new LoaiXeXuLy();
+            bool actual;
+            try
+            {
+                string maXe = "XE";
+                int soLuong = 10;
+                _lxxl.Xe_UpdateSLXuat(maXe, soLuong);
+                actual = true;
+            }
+            catch (Exception)
+            {
+                actual = false;
+            }
+            Assert.AreEqual(true, actual);
+        }
+
+        [TestMethod]
+        //test laythongtinxe
+        public void TestXe_LayTT()
+        {
+            _lxxl = new LoaiXeXuLy();
+            string item = "SO1";
+            DataTable dt = _lxxl.LayXe(item);
+            int actual = 0;
+            if (dt.Rows.Count != 0)
+            {
+                actual = 1;
+            }
+            Assert.AreEqual(1, actual);
+        }
+        #endregion
+
+        #region User
+        UserXuLy _uxl;
+        [TestMethod]
+        //test co user
+        public void TestUser()
+        {
+            _uxl = new UserXuLy();
+            int actual;
+            User user = new User();
+            user.UserName = "admin";
+            user.PassWord = "123";
+            int kq = _uxl.CheckUser(user);
+            if (kq == 1)
+            {
+                actual = 1;
+            }
+            else
+            {
+                actual = 0;
+            }
+            Assert.AreEqual(1, actual);
+        }
+
+        [TestMethod]
+        //test khong co user
+        public void TestNotUser()
+        {
+            _uxl = new UserXuLy();
+            int actual;
+            User user = new User();
+            user.UserName = "test";
+            user.PassWord = "test";
+            int kq = _uxl.CheckUser(user);
+            if (kq == 1)
+            {
+                actual = 1;
+            }
+            else
+            {
+                actual = 0;
+            }
+            Assert.AreEqual(0, actual);
         }
         #endregion
     }
